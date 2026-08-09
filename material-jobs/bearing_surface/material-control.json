@@ -1,0 +1,66 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-bearing_surface",
+    "generatedAt":  "2026-08-08T07:59:32.142129+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "bearing_surface":  {
+                                              "baseColor":  [
+                                                                0.6705882352941176,
+                                                                0.6941176470588235,
+                                                                0.6862745098039216
+                                                            ],
+                                              "metallic":  1.0,
+                                              "roughness":  0.26,
+                                              "specular":  0.5,
+                                              "normalStrength":  0.045,
+                                              "aniso":  0.65,
+                                              "textureSet":  {
+                                                                 "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                 "assetId":  "issue8-substance-style-bearing_surface-v1",
+                                                                 "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                 "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                 "role":  "bearing_surface",
+                                                                 "materialFamily":  "bearing metal",
+                                                                 "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                 "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                 "baseColor":  "material-jobs/bearing_surface/textures/bearing_surface_baseColor.png",
+                                                                 "normal":  "material-jobs/bearing_surface/textures/bearing_surface_normal.png",
+                                                                 "metallic":  "material-jobs/bearing_surface/textures/bearing_surface_metallic.png",
+                                                                 "roughness":  "material-jobs/bearing_surface/textures/bearing_surface_roughness.png",
+                                                                 "height":  "material-jobs/bearing_surface/textures/bearing_surface_height.png",
+                                                                 "ao":  "material-jobs/bearing_surface/textures/bearing_surface_ao.png",
+                                                                 "metallicRoughness":  "material-jobs/bearing_surface/textures/bearing_surface_metallicRoughness.png",
+                                                                 "ORM":  "material-jobs/bearing_surface/textures/bearing_surface_ORM.png",
+                                                                 "scale":  1.0,
+                                                                 "baseColorStrength":  0.18,
+                                                                 "roughnessStrength":  0.42,
+                                                                 "metallicStrength":  1.0,
+                                                                 "normalStrength":  0.045,
+                                                                 "heightStrength":  0.025,
+                                                                 "heightDistance":  0.003,
+                                                                 "aoStrength":  0.06
+                                                             },
+                                              "waveRings":  0.04,
+                                              "radialRotation":  true
+                                          }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "bearing_surface",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/bearing_surface"
+                    },
+    "defaultsTouched":  false
+}

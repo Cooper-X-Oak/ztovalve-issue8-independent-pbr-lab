@@ -1,0 +1,16 @@
+{
+  "schema": "ztovalve-lookdev-environment/v1",
+  "environment": {
+    "hdri": {
+      "path": "",
+      "strength": 0.18,
+      "fallbackColor": [
+        0.74,
+        0.76,
+        0.77
+      ],
+      "fallbackStrength": 0.14,
+      "rotationDegrees": 0
+    }
+  }
+}

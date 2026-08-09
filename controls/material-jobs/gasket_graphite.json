@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "gasket_graphite",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/gasket_graphite",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/gasket_graphite/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/gasket_graphite/material-control.json",
+    "renderStack":  "material-jobs/gasket_graphite/render-stack.json",
+    "objectCount":  6,
+    "surfaceTarget":  "graphite/packing gaskets; dark fibrous matte material; non-metal",
+    "materialFamily":  "graphite gasket",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-gasket_graphite-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "gasket_graphite",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_baseColor.png",
+                                                      "sha256":  "91e0e1ef4d145aca12ecf976171e36431dcbb57586b91b1d47b4bb64cb773679",
+                                                      "bytes":  309645,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_normal.png",
+                                                   "sha256":  "26a601f36639fddd332c5fd3402287a8b83bd92c0d97fc42743e4bbb42c7c76b",
+                                                   "bytes":  190225,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_metallic.png",
+                                                     "sha256":  "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91",
+                                                     "bytes":  1097,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_roughness.png",
+                                                      "sha256":  "2f1840bf146ad0e582ef034337693249f9c85b3c935000f6d859faf370b4a4b5",
+                                                      "bytes":  336896,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_height.png",
+                                                   "sha256":  "64b0d7c80577295184ca725ad5c950fbf796e6cb0ef88498bb65d9458e22275b",
+                                                   "bytes":  108107,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_ao.png",
+                                               "sha256":  "8abddd27d35ef9c8c14a53bdd701d092b4816caa8ba94cf3be4effbb8ec9f98a",
+                                               "bytes":  28396,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_metallicRoughness.png",
+                                                              "sha256":  "ef178be4b64a017a633e40253f1234bffdf90d82dcc7b06ea3f87c1c2cb27a6d",
+                                                              "bytes":  427124,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/gasket_graphite/textures/gasket_graphite_ORM.png",
+                                                "sha256":  "277a2f1364d665e91a8bd814fb54a29e5f983730799c56a3b2e43d530b2ce1de",
+                                                "bytes":  457708,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

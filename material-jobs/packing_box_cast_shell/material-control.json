@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-packing_box_cast_shell",
+    "generatedAt":  "2026-08-08T07:58:43.147027+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "packing_box_cast_shell":  {
+                                                     "baseColor":  [
+                                                                       0.611764705882353,
+                                                                       0.6313725490196078,
+                                                                       0.6235294117647059
+                                                                   ],
+                                                     "metallic":  1.0,
+                                                     "roughness":  0.52,
+                                                     "specular":  0.5,
+                                                     "normalStrength":  0.12,
+                                                     "aniso":  0.06,
+                                                     "textureSet":  {
+                                                                        "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                        "assetId":  "issue8-substance-style-packing_box_cast_shell-v1",
+                                                                        "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                        "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                        "role":  "packing_box_cast_shell",
+                                                                        "materialFamily":  "small cast metal shell",
+                                                                        "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                        "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                        "baseColor":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_baseColor.png",
+                                                                        "normal":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_normal.png",
+                                                                        "metallic":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_metallic.png",
+                                                                        "roughness":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_roughness.png",
+                                                                        "height":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_height.png",
+                                                                        "ao":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_ao.png",
+                                                                        "metallicRoughness":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_metallicRoughness.png",
+                                                                        "ORM":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_ORM.png",
+                                                                        "scale":  1.0,
+                                                                        "baseColorStrength":  0.26,
+                                                                        "roughnessStrength":  0.52,
+                                                                        "metallicStrength":  1.0,
+                                                                        "normalStrength":  0.12,
+                                                                        "heightStrength":  0.07,
+                                                                        "heightDistance":  0.005,
+                                                                        "aoStrength":  0.08
+                                                                    }
+                                                 }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "packing_box_cast_shell",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/packing_box_cast_shell"
+                    },
+    "defaultsTouched":  false
+}

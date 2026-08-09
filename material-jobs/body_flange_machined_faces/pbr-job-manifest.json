@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:58:17.981666+00:00",
+    "role":  "body_flange_machined_faces",
+    "objectCount":  1,
+    "surfaceTarget":  "clean machined flange/contact faces; lower roughness; subtle radial machining; visually distinct from cast shell",
+    "visualTarget":  "clean machined flange metal with subtle circular tool marks",
+    "materialFamily":  "machined flange face",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_baseColor.png",
+                                         "sha256":  "f7044342df56ef33c57ee2f0d06f61a84e1e8f7d6459f041d7e98decf43635c1",
+                                         "bytes":  202590,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_normal.png",
+                                      "sha256":  "eb1455305d69b894f94bb3a11ec68b7c119d147fb634efdfbb1203cd6c408fd8",
+                                      "bytes":  228274,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_roughness.png",
+                                         "sha256":  "f8b3b01a4a5d17d4d37078d3be81d9b78b3d277e87f3448dae49114b52d0d0ac",
+                                         "bytes":  77056,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_height.png",
+                                      "sha256":  "a09f01c842a45e970185dd46ed38fa6d497097bfcee4f1049ba46da9e035e3ba",
+                                      "bytes":  165921,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_ao.png",
+                                  "sha256":  "bbad1cbbe448d7170d01d8fb3d7bbf94f1d3ce983da521501fd088c0cacf0d3c",
+                                  "bytes":  50386,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_metallicRoughness.png",
+                                                 "sha256":  "825c29bcc6ae6581902a729659a9a86b4fd507ce7669dc417c5af056828cd641",
+                                                 "bytes":  92815,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/body_flange_machined_faces/textures/body_flange_machined_faces_ORM.png",
+                                   "sha256":  "02a7cdb9b9c57b122a8d31bf48e86071c2cd919807ead759d8461a9da1505b9e",
+                                   "bytes":  135024,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/body_flange_machined_faces/material-control.json",
+                            "sha256":  "16b80609ed48072dccf6b82076ae7c7a7db4035bcd79004721874fb85169e56e"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/body_flange_machined_faces/render-stack.json",
+                        "sha256":  "3b9950f23b38f958cd59611b3f393a7ee3306c80aad4cad225d3b81d83fa7d1f"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

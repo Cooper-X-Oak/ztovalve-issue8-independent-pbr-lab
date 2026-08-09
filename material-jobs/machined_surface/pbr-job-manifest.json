@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:59:21.918623+00:00",
+    "role":  "machined_surface",
+    "objectCount":  7,
+    "surfaceTarget":  "general machined rings and seats; lower roughness; precise circular tooling where appropriate",
+    "visualTarget":  "general machined seats and rings with clean tooling marks",
+    "materialFamily":  "general machined metal",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/machined_surface/textures/machined_surface_baseColor.png",
+                                         "sha256":  "440566694eb4cb29cc76e848e63c14f1c095efa5ff53931b239806d68f98db56",
+                                         "bytes":  197540,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/machined_surface/textures/machined_surface_normal.png",
+                                      "sha256":  "6ffd3d142136a55241a8368b6173971ac1af787fffb34658ab4d861a94687866",
+                                      "bytes":  194561,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/machined_surface/textures/machined_surface_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/machined_surface/textures/machined_surface_roughness.png",
+                                         "sha256":  "34d1451af3708ee3b0866b40298d4560b0f06016fd1bf6af0a2b867876954ecb",
+                                         "bytes":  77358,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/machined_surface/textures/machined_surface_height.png",
+                                      "sha256":  "8d818b936cc748ce32b6708af5901a6c3aa7a8e7cc01fa047dacc1f81f9fe852",
+                                      "bytes":  166450,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/machined_surface/textures/machined_surface_ao.png",
+                                  "sha256":  "deedeb51106dcbd1dad5f0f125786ceb99aa5fb2bed2e0ea4d6f2e745a643a82",
+                                  "bytes":  50737,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/machined_surface/textures/machined_surface_metallicRoughness.png",
+                                                 "sha256":  "871a39c82ca784a96dacf99a1bc0834aa3f61b7eba164949420f014af4bca736",
+                                                 "bytes":  92724,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/machined_surface/textures/machined_surface_ORM.png",
+                                   "sha256":  "f1d4c18de3dfe826be359c1ef55f739ca0081e6113e70b4c5acbc2838cfb98f1",
+                                   "bytes":  137122,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/machined_surface/material-control.json",
+                            "sha256":  "fb0c095cb4c5a968a7374d2fd2520f792258c76ad4da671e60dbd2f4c0f098b6"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/machined_surface/render-stack.json",
+                        "sha256":  "c5880bff58349a6cdff65fd7bb697c7366d3688bef0c243495e9ffca6891588a"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

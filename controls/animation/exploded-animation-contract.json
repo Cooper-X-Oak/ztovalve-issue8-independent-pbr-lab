@@ -1,0 +1,220 @@
+{
+    "schema":  "industrial-cad-animation-contract/v1",
+    "name":  "issue8-fixed-ball-valve-exploded-contract",
+    "motionType":  "explode-preview",
+    "sourceAuthority":  {
+                            "step":  "assets/source/固定式球阀.STEP",
+                            "nodeMap":  "assets-manifest/node-map.json",
+                            "roles":  "controls/parts/role-segmentation.json",
+                            "materialControl":  "controls/materials/role-pbr-materials.json"
+                        },
+    "productLevel":  {
+                         "frameRate":  24,
+                         "frameRange":  [
+                                            0,
+                                            239
+                                        ],
+                         "stableHeroPoses":  [
+                                                 "assembled",
+                                                 "exploded_inspection",
+                                                 "return_to_assembled"
+                                             ],
+                         "cameraIntent":  "wider orthographic industrial inspection angle; product remains centered during exploded preview",
+                         "lightingIntent":  "same checkpoint2 studio lights so material readability stays comparable",
+                         "reverseBehavior":  "preview frames can be read as exploded-to-assembled or reversed for assembled-to-exploded"
+                     },
+    "groups":  [
+                   {
+                       "group_id":  "central-body-anchor",
+                       "role":  "cast_body",
+                       "anchor":  true,
+                       "objects":  [
+                                       "阀体_cast_shell",
+                                       "阀体_flange_machined_faces",
+                                       "堵头"
+                                   ],
+                       "motion_type":  "anchor",
+                       "explode_vector":  [
+                                              0,
+                                              0,
+                                              0
+                                          ],
+                       "distance_mm":  0,
+                       "start_frame":  0,
+                       "end_frame":  239,
+                       "depends_on":  [
+
+                                      ]
+                   },
+                   {
+                       "group_id":  "fasteners-small-hardware",
+                       "role":  "fastener_zinc/threaded_dark/spring_steel",
+                       "anchor":  false,
+                       "objects":  [
+                                       "body studs, nuts, socket screws, washers, springs, pins"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "radial_from_product_center",
+                       "explode_vector":  [
+                                              "radial"
+                                          ],
+                       "distance_mm":  90,
+                       "start_frame":  12,
+                       "end_frame":  56,
+                       "depends_on":  [
+
+                                      ]
+                   },
+                   {
+                       "group_id":  "top-bracket-fasteners",
+                       "role":  "threaded_dark",
+                       "anchor":  false,
+                       "objects":  [
+                                       "支架螺柱"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "vertical_bracket_axis",
+                       "explode_vector":  [
+                                              0,
+                                              1,
+                                              0
+                                          ],
+                       "distance_mm":  80,
+                       "start_frame":  18,
+                       "end_frame":  62,
+                       "depends_on":  [
+
+                                      ]
+                   },
+                   {
+                       "group_id":  "top-bracket-connector",
+                       "role":  "bracket_cast/precision_machined",
+                       "anchor":  false,
+                       "objects":  [
+                                       "支架_cast_shell",
+                                       "支架_machined_faces",
+                                       "连接轴",
+                                       "平键",
+                                       "排污阀垫片"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "vertical_bracket_axis",
+                       "explode_vector":  [
+                                              0,
+                                              1,
+                                              0
+                                          ],
+                       "distance_mm":  130,
+                       "start_frame":  50,
+                       "end_frame":  104,
+                       "depends_on":  [
+                                          "top-bracket-fasteners"
+                                      ]
+                   },
+                   {
+                       "group_id":  "stem-packing-stack",
+                       "role":  "machined_surface/precision_machined/gasket_graphite",
+                       "anchor":  false,
+                       "objects":  [
+                                       "阀杆",
+                                       "填料箱_cast_shell",
+                                       "填料箱_machined_faces",
+                                       "填料压盖",
+                                       "填料压圈",
+                                       "填料"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "vertical_stem_axis",
+                       "explode_vector":  [
+                                              0,
+                                              1,
+                                              0
+                                          ],
+                       "distance_mm":  100,
+                       "start_frame":  58,
+                       "end_frame":  118,
+                       "depends_on":  [
+                                          "top-bracket-connector"
+                                      ]
+                   },
+                   {
+                       "group_id":  "end-caps-covers",
+                       "role":  "cast_cover",
+                       "anchor":  false,
+                       "objects":  [
+                                       "阀盖_cast_shell",
+                                       "阀盖_flange_machined_faces"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "flow_axis_x",
+                       "explode_vector":  [
+                                              1,
+                                              0,
+                                              0
+                                          ],
+                       "distance_mm":  160,
+                       "start_frame":  64,
+                       "end_frame":  128,
+                       "depends_on":  [
+                                          "fasteners-small-hardware"
+                                      ]
+                   },
+                   {
+                       "group_id":  "seat-seal-system",
+                       "role":  "machined_surface/soft_seal/gasket_graphite",
+                       "anchor":  false,
+                       "objects":  [
+                                       "阀座",
+                                       "阀座压圈",
+                                       "阀座密封圈",
+                                       "阀座盘根",
+                                       "中道垫片"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "flow_axis_x_short",
+                       "explode_vector":  [
+                                              1,
+                                              0,
+                                              0
+                                          ],
+                       "distance_mm":  55,
+                       "start_frame":  100,
+                       "end_frame":  152,
+                       "depends_on":  [
+                                          "end-caps-covers"
+                                      ]
+                   },
+                   {
+                       "group_id":  "ball-trunnion-core",
+                       "role":  "polished_ball/precision_machined/bearing_surface",
+                       "anchor":  false,
+                       "objects":  [
+                                       "球体",
+                                       "固定轴",
+                                       "固定轴垫片",
+                                       "固定轴轴承",
+                                       "球体轴承"
+                                   ],
+                       "motion_type":  "explode",
+                       "axis_source":  "inspection_side_axis",
+                       "explode_vector":  [
+                                              0,
+                                              0,
+                                              -1
+                                          ],
+                       "distance_mm":  85,
+                       "start_frame":  132,
+                       "end_frame":  188,
+                       "depends_on":  [
+                                          "seat-seal-system"
+                                      ]
+                   }
+               ],
+    "qualityGate":  {
+                        "anchoredGroupsExplicit":  true,
+                        "dependenciesDeclared":  true,
+                        "noFalseProductClaim":  true,
+                        "wholeAssemblyTexturePassAllowed":  false
+                    },
+    "defaultsTouched":  false
+}

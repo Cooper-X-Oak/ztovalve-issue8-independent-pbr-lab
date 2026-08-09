@@ -1,0 +1,178 @@
+{
+  "schema": "ztovalve-render-mapping-control/v1",
+  "name": "issue8-renderer-role-mapping",
+  "mapping": {
+    "default": {
+      "mode": "box",
+      "coordinate": "Generated",
+      "projection": "BOX",
+      "scale": 1.0,
+      "checkerScale": 12,
+      "checkerVectorScale": 1.0,
+      "intent": "fallback mapping only"
+    },
+    "roles": {
+      "body_cast_shell": {
+        "mode": "box",
+        "coordinate": "Generated",
+        "projection": "BOX",
+        "scale": 1.15,
+        "checkerScale": 14,
+        "checkerVectorScale": 1.0,
+        "intent": "large cast shell projection"
+      },
+      "body_flange_machined_faces": {
+        "mode": "uv-planar",
+        "coordinate": "UV",
+        "projection": "FLAT",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 1.0,
+        "checkerScale": 12,
+        "intent": "split valve-body machined faces"
+      },
+      "cover_cast_shell": {
+        "mode": "box",
+        "coordinate": "Generated",
+        "projection": "BOX",
+        "scale": 1.1,
+        "checkerScale": 14,
+        "intent": "cover cast shell projection"
+      },
+      "cover_flange_machined_faces": {
+        "mode": "uv-planar",
+        "coordinate": "UV",
+        "projection": "FLAT",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 1.0,
+        "checkerScale": 12,
+        "intent": "split cover machined faces"
+      },
+      "packing_box_cast_shell": {
+        "mode": "box",
+        "coordinate": "Generated",
+        "projection": "BOX",
+        "scale": 1.1,
+        "checkerScale": 14,
+        "intent": "packing box shell projection"
+      },
+      "packing_box_machined_faces": {
+        "mode": "uv-planar",
+        "coordinate": "UV",
+        "projection": "FLAT",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 1.0,
+        "checkerScale": 12,
+        "intent": "packing box machined faces"
+      },
+      "bracket_cast_shell": {
+        "mode": "box",
+        "coordinate": "Generated",
+        "projection": "BOX",
+        "scale": 1.12,
+        "checkerScale": 15,
+        "intent": "bracket cast shell projection"
+      },
+      "bracket_machined_faces": {
+        "mode": "uv-planar",
+        "coordinate": "UV",
+        "projection": "FLAT",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 1.0,
+        "checkerScale": 12,
+        "intent": "bracket installation and contact faces"
+      },
+      "machined_surface": {
+        "mode": "uv-planar",
+        "coordinate": "UV",
+        "projection": "FLAT",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.95,
+        "checkerScale": 10,
+        "intent": "general machined seats and rings"
+      },
+      "bearing_surface": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.9,
+        "checkerScale": 12,
+        "intent": "bearing-like cylindrical parts"
+      },
+      "precision_machined": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.9,
+        "checkerScale": 10,
+        "intent": "shafts, pins, keys and precision connectors"
+      },
+      "polished_ball": {
+        "mode": "spherical",
+        "coordinate": "UV",
+        "projection": "SPHERE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.8,
+        "checkerScale": 8,
+        "intent": "spherical valve ball"
+      },
+      "soft_seal": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.72,
+        "checkerScale": 16,
+        "intent": "rubber/PTFE seal rings"
+      },
+      "gasket_graphite": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.76,
+        "checkerScale": 18,
+        "intent": "graphite gasket and packing rings"
+      },
+      "fastener_zinc": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.85,
+        "checkerScale": 16,
+        "intent": "nuts and washers as repeated hardware"
+      },
+      "threaded_dark": {
+        "mode": "cylindrical",
+        "coordinate": "UV",
+        "projection": "TUBE",
+        "uvLayer": "UVMap",
+        "requireUv": true,
+        "scale": 0.85,
+        "checkerScale": 18,
+        "intent": "studs and screws with cylindrical continuity"
+      },
+      "spring_steel": {
+        "mode": "object-tube",
+        "coordinate": "Generated",
+        "projection": "TUBE",
+        "scale": 0.75,
+        "checkerScale": 18,
+        "intent": "spring procedural mapping, no UV gate"
+      }
+    }
+  }
+}

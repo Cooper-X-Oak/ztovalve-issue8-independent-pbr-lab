@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:58:43.152083+00:00",
+    "role":  "packing_box_cast_shell",
+    "objectCount":  1,
+    "surfaceTarget":  "small cast packing-box shell, independently scaled grain visible in close-up",
+    "visualTarget":  "small cast packing-box shell with scaled fine grain",
+    "materialFamily":  "small cast metal shell",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_baseColor.png",
+                                         "sha256":  "c38104ca65ee935ddd0e54da336824f69e6d36588a7931d3775136f60190f109",
+                                         "bytes":  298592,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_normal.png",
+                                      "sha256":  "5f632ad76380e978429de0f2c5167cb4e0fe5bd4513efd8599964c8e7330a1a2",
+                                      "bytes":  1721122,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_roughness.png",
+                                         "sha256":  "bf9bcd5b0d613af3f4c341ea6b4e34c0a60065acd1509d244dbfd5ba09aa0507",
+                                         "bytes":  344525,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_height.png",
+                                      "sha256":  "bcde084ad7981fc4a1c4f7d1eac4c271445e7f8ba706f11ca6b8ec135a430f5f",
+                                      "bytes":  704305,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_ao.png",
+                                  "sha256":  "00f39ac2b38d781d59ca22e9f56b7dc7a379ca4086d6e8b43cc74d4add632af0",
+                                  "bytes":  225655,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_metallicRoughness.png",
+                                                 "sha256":  "6344be9a6f4e0ecb6ca42b5ccfb2009c5b3428c9d6ca7f10f721e8b08158544a",
+                                                 "bytes":  435915,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/packing_box_cast_shell/textures/packing_box_cast_shell_ORM.png",
+                                   "sha256":  "89382f4dfc02112524bc05f7de6990eeeb06c7a6b0c34a2d1dc4847549af6eea",
+                                   "bytes":  674413,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/packing_box_cast_shell/material-control.json",
+                            "sha256":  "b20b571a908a3c099346c76c3f249661269c6132b3e79e203a119163e16720b8"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/packing_box_cast_shell/render-stack.json",
+                        "sha256":  "9368573fe8d1caf2de3efe0cbcdfeec7777decc190a8cc6eb79c50733a8ce9da"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

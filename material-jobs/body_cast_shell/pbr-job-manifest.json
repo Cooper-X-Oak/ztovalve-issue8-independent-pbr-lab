@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:58:07.732219+00:00",
+    "role":  "body_cast_shell",
+    "objectCount":  1,
+    "surfaceTarget":  "silver-gray cast valve body shell; controlled fine cast grain; no dark directional projection patch",
+    "visualTarget":  "fine silver-gray cast valve shell; no coarse dark directional patch",
+    "materialFamily":  "cast metal shell",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_baseColor.png",
+                                         "sha256":  "d78ad92728bb656dd129ad1f91466d0a78361e775a689b18340a894b9cab90ac",
+                                         "bytes":  296506,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_normal.png",
+                                      "sha256":  "e58b47bdb521c91832e98381cd32949816898a94a0cb7569843cfb119c0c9916",
+                                      "bytes":  1777999,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_roughness.png",
+                                         "sha256":  "3bae387bbb3bf7766ab328bbfb3fa62789fac74d6fd528d7e062497e445d0d7a",
+                                         "bytes":  348710,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_height.png",
+                                      "sha256":  "a7454d7b8b1e418b1e4461b8a97b34253a5d44cdd294ad14cad462a304543257",
+                                      "bytes":  696385,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_ao.png",
+                                  "sha256":  "28013b68f300b806562f70e1094f571279c8f0a11c616d2a084d25b580378d6e",
+                                  "bytes":  222840,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_metallicRoughness.png",
+                                                 "sha256":  "ef932e3ca4e52172a6414b1b6124f2bd16242585ab3a733827d08072df2687aa",
+                                                 "bytes":  440770,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/body_cast_shell/textures/body_cast_shell_ORM.png",
+                                   "sha256":  "c73af4f8fdccc15c77e70b293142bfb45e219a4b4b253628c16681b8641dad3d",
+                                   "bytes":  676969,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/body_cast_shell/material-control.json",
+                            "sha256":  "4677d65191e8d3b54ac2b20fea6cf590a8901c74b53c5a756ec12f53f2be1cc4"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/body_cast_shell/render-stack.json",
+                        "sha256":  "a92381b99282c50e42aec937061706ba9523802b882bf7c2c1a2b9632d4dad25"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

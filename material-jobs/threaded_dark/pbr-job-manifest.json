@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T08:00:41.040028+00:00",
+    "role":  "threaded_dark",
+    "objectCount":  38,
+    "surfaceTarget":  "dark threaded parts with cylindrical ridge detail; independent from bright fasteners",
+    "visualTarget":  "dark steel threaded parts with cylindrical ridge detail",
+    "materialFamily":  "dark threaded steel",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/threaded_dark/textures/threaded_dark_baseColor.png",
+                                         "sha256":  "d8f888cecc87f24b299688b056775fc51c921c372ba7853aefa27dada55f8d0e",
+                                         "bytes":  190855,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/threaded_dark/textures/threaded_dark_normal.png",
+                                      "sha256":  "56817e3f6e6a12afaa611f662323eff0200daf838daec77a64ef9e620ed3bb2d",
+                                      "bytes":  251361,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/threaded_dark/textures/threaded_dark_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/threaded_dark/textures/threaded_dark_roughness.png",
+                                         "sha256":  "01c5edd1b48994706b9c9f5c77cfa4baad5950ff9fc01e82bbe43e1bce047922",
+                                         "bytes":  47986,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/threaded_dark/textures/threaded_dark_height.png",
+                                      "sha256":  "afda3806094f32058d7c5b64470f9c1f011ce046e473f4ffdf7069fafb815d69",
+                                      "bytes":  111790,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/threaded_dark/textures/threaded_dark_ao.png",
+                                  "sha256":  "8dd8c44bc3b56a4004dc43943dffa4afe08f005a7c67ce17c428e5081c440d6d",
+                                  "bytes":  33246,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/threaded_dark/textures/threaded_dark_metallicRoughness.png",
+                                                 "sha256":  "819c34a1b10b8ba4935e1b2f6e091c0dc38d5fb3068b98033b481ccd5cd04870",
+                                                 "bytes":  58817,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/threaded_dark/textures/threaded_dark_ORM.png",
+                                   "sha256":  "03f8f6a75f4186ea92870dbcf19e2614b3d3e6fb0504c55bae43a6063d037bcf",
+                                   "bytes":  86842,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/threaded_dark/material-control.json",
+                            "sha256":  "aa1d466caa55adecff684aae67b34e45e3868401cf3aec392deef03dad3e1daa"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/threaded_dark/render-stack.json",
+                        "sha256":  "ab781bebf5bc20377163dd4062be7fe8d101b313a8d9cd049b473a4f93f13c23"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

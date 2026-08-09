@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-spring_steel",
+    "generatedAt":  "2026-08-08T08:00:48.548582+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "spring_steel":  {
+                                           "baseColor":  [
+                                                             0.4666666666666667,
+                                                             0.4980392156862745,
+                                                             0.48627450980392156
+                                                         ],
+                                           "metallic":  1.0,
+                                           "roughness":  0.36,
+                                           "specular":  0.5,
+                                           "normalStrength":  0.055,
+                                           "aniso":  0.42,
+                                           "textureSet":  {
+                                                              "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                              "assetId":  "issue8-substance-style-spring_steel-v1",
+                                                              "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                              "license":  "CC0-1.0 project-generated procedural test texture",
+                                                              "role":  "spring_steel",
+                                                              "materialFamily":  "spring steel",
+                                                              "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                              "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                              "baseColor":  "material-jobs/spring_steel/textures/spring_steel_baseColor.png",
+                                                              "normal":  "material-jobs/spring_steel/textures/spring_steel_normal.png",
+                                                              "metallic":  "material-jobs/spring_steel/textures/spring_steel_metallic.png",
+                                                              "roughness":  "material-jobs/spring_steel/textures/spring_steel_roughness.png",
+                                                              "height":  "material-jobs/spring_steel/textures/spring_steel_height.png",
+                                                              "ao":  "material-jobs/spring_steel/textures/spring_steel_ao.png",
+                                                              "metallicRoughness":  "material-jobs/spring_steel/textures/spring_steel_metallicRoughness.png",
+                                                              "ORM":  "material-jobs/spring_steel/textures/spring_steel_ORM.png",
+                                                              "scale":  1.0,
+                                                              "baseColorStrength":  0.22,
+                                                              "roughnessStrength":  0.44,
+                                                              "metallicStrength":  1.0,
+                                                              "normalStrength":  0.055,
+                                                              "heightStrength":  0.03,
+                                                              "heightDistance":  0.003,
+                                                              "aoStrength":  0.06
+                                                          }
+                                       }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "spring_steel",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/spring_steel"
+                    },
+    "defaultsTouched":  false
+}

@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-cover_cast_shell",
+    "generatedAt":  "2026-08-08T07:58:25.123901+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "cover_cast_shell":  {
+                                               "baseColor":  [
+                                                                 0.6431372549019608,
+                                                                 0.6588235294117647,
+                                                                 0.6509803921568628
+                                                             ],
+                                               "metallic":  1.0,
+                                               "roughness":  0.48,
+                                               "specular":  0.5,
+                                               "normalStrength":  0.12,
+                                               "aniso":  0.06,
+                                               "textureSet":  {
+                                                                  "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                  "assetId":  "issue8-substance-style-cover_cast_shell-v1",
+                                                                  "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                  "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                  "role":  "cover_cast_shell",
+                                                                  "materialFamily":  "cast metal cover",
+                                                                  "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                  "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                  "baseColor":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_baseColor.png",
+                                                                  "normal":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_normal.png",
+                                                                  "metallic":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_metallic.png",
+                                                                  "roughness":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_roughness.png",
+                                                                  "height":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_height.png",
+                                                                  "ao":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_ao.png",
+                                                                  "metallicRoughness":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_metallicRoughness.png",
+                                                                  "ORM":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_ORM.png",
+                                                                  "scale":  1.0,
+                                                                  "baseColorStrength":  0.26,
+                                                                  "roughnessStrength":  0.5,
+                                                                  "metallicStrength":  1.0,
+                                                                  "normalStrength":  0.12,
+                                                                  "heightStrength":  0.07,
+                                                                  "heightDistance":  0.005,
+                                                                  "aoStrength":  0.08
+                                                              }
+                                           }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "cover_cast_shell",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/cover_cast_shell"
+                    },
+    "defaultsTouched":  false
+}

@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-precision_machined",
+    "generatedAt":  "2026-08-08T07:59:39.863465+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "precision_machined":  {
+                                                 "baseColor":  [
+                                                                   0.6588235294117647,
+                                                                   0.6823529411764706,
+                                                                   0.6745098039215687
+                                                               ],
+                                                 "metallic":  1.0,
+                                                 "roughness":  0.28,
+                                                 "specular":  0.5,
+                                                 "normalStrength":  0.055,
+                                                 "aniso":  0.62,
+                                                 "textureSet":  {
+                                                                    "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                    "assetId":  "issue8-substance-style-precision_machined-v1",
+                                                                    "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                    "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                    "role":  "precision_machined",
+                                                                    "materialFamily":  "precision machined metal",
+                                                                    "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                    "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                    "baseColor":  "material-jobs/precision_machined/textures/precision_machined_baseColor.png",
+                                                                    "normal":  "material-jobs/precision_machined/textures/precision_machined_normal.png",
+                                                                    "metallic":  "material-jobs/precision_machined/textures/precision_machined_metallic.png",
+                                                                    "roughness":  "material-jobs/precision_machined/textures/precision_machined_roughness.png",
+                                                                    "height":  "material-jobs/precision_machined/textures/precision_machined_height.png",
+                                                                    "ao":  "material-jobs/precision_machined/textures/precision_machined_ao.png",
+                                                                    "metallicRoughness":  "material-jobs/precision_machined/textures/precision_machined_metallicRoughness.png",
+                                                                    "ORM":  "material-jobs/precision_machined/textures/precision_machined_ORM.png",
+                                                                    "scale":  1.0,
+                                                                    "baseColorStrength":  0.2,
+                                                                    "roughnessStrength":  0.46,
+                                                                    "metallicStrength":  1.0,
+                                                                    "normalStrength":  0.055,
+                                                                    "heightStrength":  0.03,
+                                                                    "heightDistance":  0.003,
+                                                                    "aoStrength":  0.07
+                                                                }
+                                             }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "precision_machined",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/precision_machined"
+                    },
+    "defaultsTouched":  false
+}

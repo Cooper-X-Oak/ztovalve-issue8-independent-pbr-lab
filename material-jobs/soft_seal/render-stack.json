@@ -1,0 +1,31 @@
+{
+    "schema":  "ztovalve-control-stack/v1",
+    "name":  "issue8-substance-per-role-stack-soft_seal",
+    "asset":  {
+                  "glb":  "assets/models/fixed-ball-valve-issue8-industrial-uv.glb"
+              },
+    "parts":  {
+                  "nodeMap":  "assets-manifest/node-map.json",
+                  "roles":  "controls/parts/role-segmentation.json"
+              },
+    "render":  "controls/render/material-gate-640.json",
+    "lookdev":  {
+                    "view":  "controls/lookdev/view-agx.json",
+                    "environment":  "controls/lookdev/environment-neutral.json",
+                    "grounding":  "controls/lookdev/grounding-contact-shadow.json",
+                    "lighting":  "controls/lighting/issue8-lighting.json",
+                    "materials":  "material-jobs/soft_seal/material-control.json",
+                    "mapping":  "controls/mapping/role-render-mapping.json"
+                },
+    "animation":  {
+                      "camera":  "controls/animation/per-role-substance-camera.json"
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "soft_seal",
+                        "priorIssueAssetsReused":  false,
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "requiresTextureOnlyAndStyledIsolation":  true
+                    }
+}

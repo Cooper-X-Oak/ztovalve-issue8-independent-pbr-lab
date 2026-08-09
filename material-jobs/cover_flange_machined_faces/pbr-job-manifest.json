@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:58:35.308975+00:00",
+    "role":  "cover_flange_machined_faces",
+    "objectCount":  1,
+    "surfaceTarget":  "machined cover faces with separate ring/contact marks",
+    "visualTarget":  "cover machined contact faces with fine ring detail",
+    "materialFamily":  "machined cover face",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_baseColor.png",
+                                         "sha256":  "e871ae37c99285a447ca5d761cc90ce5a23c875b75e06f10be188bfcc3786783",
+                                         "bytes":  199009,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_normal.png",
+                                      "sha256":  "236dc4455f71ff13e2e46937df61dd5b7b26432862acd8491adb69f8f007ce0b",
+                                      "bytes":  226478,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_roughness.png",
+                                         "sha256":  "a9528d47a430285d20c3427c217de320e0d9b1c1f1f99cec885a9e32b60bf6ba",
+                                         "bytes":  77624,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_height.png",
+                                      "sha256":  "7a648d99fc8f47f088e8e42b223a26de6d68d4aa357e6c19da8aa1b9863999d2",
+                                      "bytes":  166001,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_ao.png",
+                                  "sha256":  "b453dd0c027bb140ef815606caccf619eb7d105c3288b0a725125c4e644a122e",
+                                  "bytes":  50321,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_metallicRoughness.png",
+                                                 "sha256":  "649f3094161ae596f48f9650d24328b72b417599c854f667b917cf8a7d00c3a4",
+                                                 "bytes":  92983,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_ORM.png",
+                                   "sha256":  "2c1cfe459b2690fd01ae250daf3d189637b97cd19f10302ce012389eb5fd80fd",
+                                   "bytes":  134540,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/cover_flange_machined_faces/material-control.json",
+                            "sha256":  "c9cefdae8a1750bf5517fceb029924401bea0e40fe25f1e442860b603b3e9b85"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/cover_flange_machined_faces/render-stack.json",
+                        "sha256":  "a240131b784be2442f344b9fc25973b13110d0103cd8d5b101323a6e15a14289"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

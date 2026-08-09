@@ -1,0 +1,104 @@
+[
+    {
+        "Role":  "body_cast_shell",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "body_flange_machined_faces",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "cover_cast_shell",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "cover_flange_machined_faces",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "packing_box_cast_shell",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "packing_box_machined_faces",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "bracket_cast_shell",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "bracket_machined_faces",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "machined_surface",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "bearing_surface",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "precision_machined",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "polished_ball",
+        "Action":  "exists",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "soft_seal",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "gasket_graphite",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "fastener_zinc",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "threaded_dark",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    },
+    {
+        "Role":  "spring_steel",
+        "Action":  "generated",
+        "ExitCode":  0,
+        "Manifest":  true
+    }
+]

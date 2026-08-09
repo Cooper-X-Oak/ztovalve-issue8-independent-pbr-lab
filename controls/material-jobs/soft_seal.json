@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "soft_seal",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/soft_seal",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/soft_seal/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/soft_seal/material-control.json",
+    "renderStack":  "material-jobs/soft_seal/render-stack.json",
+    "objectCount":  2,
+    "surfaceTarget":  "soft sealing rings; non-metal; high roughness; restrained bump; clear thin-ring visibility",
+    "materialFamily":  "PTFE-like soft seal",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-soft_seal-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "soft_seal",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/soft_seal/textures/soft_seal_baseColor.png",
+                                                      "sha256":  "a1b2bdde3433a9f503b3e61ffafd7ff8768bbd8730253fdccf0370018a0d6b35",
+                                                      "bytes":  228946,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/soft_seal/textures/soft_seal_normal.png",
+                                                   "sha256":  "826299a02bf46a961cc0a553fc64bb31517207930975054c6ee3f320de456203",
+                                                   "bytes":  379308,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/soft_seal/textures/soft_seal_metallic.png",
+                                                     "sha256":  "0f4b1668d119f77ceb6b86645573f088ab2341d7b284314d5df0be7226ea5d91",
+                                                     "bytes":  1097,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/soft_seal/textures/soft_seal_roughness.png",
+                                                      "sha256":  "13a0bd03f1270575342716ed6f62a2258d31c730eb9cdac923c4446d58809e9f",
+                                                      "bytes":  340410,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/soft_seal/textures/soft_seal_height.png",
+                                                   "sha256":  "76d931030415555d719b84a579e966b6845d7701a72a2ecb5eb4af4591719a80",
+                                                   "bytes":  418388,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/soft_seal/textures/soft_seal_ao.png",
+                                               "sha256":  "f968a0216736f9c838fa1ca05788eb5a595abfbbabb307b56fa21b37858a889d",
+                                               "bytes":  179504,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/soft_seal/textures/soft_seal_metallicRoughness.png",
+                                                              "sha256":  "926dd757893dde63351d1c444c93e107c96e317746f702de7acd4f4b543115f6",
+                                                              "bytes":  430920,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/soft_seal/textures/soft_seal_ORM.png",
+                                                "sha256":  "91943e53d8bb28e1de2f233d891ef1f9df05afa050bb68b41d6de3c5963d1de5",
+                                                "bytes":  622024,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

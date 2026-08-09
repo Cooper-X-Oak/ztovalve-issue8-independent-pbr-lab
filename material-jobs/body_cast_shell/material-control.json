@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-body_cast_shell",
+    "generatedAt":  "2026-08-08T07:58:07.723033+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "body_cast_shell":  {
+                                              "baseColor":  [
+                                                                0.6235294117647059,
+                                                                0.6392156862745098,
+                                                                0.6392156862745098
+                                                            ],
+                                              "metallic":  1.0,
+                                              "roughness":  0.5,
+                                              "specular":  0.5,
+                                              "normalStrength":  0.14,
+                                              "aniso":  0.08,
+                                              "textureSet":  {
+                                                                 "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                 "assetId":  "issue8-substance-style-body_cast_shell-v1",
+                                                                 "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                 "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                 "role":  "body_cast_shell",
+                                                                 "materialFamily":  "cast metal shell",
+                                                                 "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                 "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                 "baseColor":  "material-jobs/body_cast_shell/textures/body_cast_shell_baseColor.png",
+                                                                 "normal":  "material-jobs/body_cast_shell/textures/body_cast_shell_normal.png",
+                                                                 "metallic":  "material-jobs/body_cast_shell/textures/body_cast_shell_metallic.png",
+                                                                 "roughness":  "material-jobs/body_cast_shell/textures/body_cast_shell_roughness.png",
+                                                                 "height":  "material-jobs/body_cast_shell/textures/body_cast_shell_height.png",
+                                                                 "ao":  "material-jobs/body_cast_shell/textures/body_cast_shell_ao.png",
+                                                                 "metallicRoughness":  "material-jobs/body_cast_shell/textures/body_cast_shell_metallicRoughness.png",
+                                                                 "ORM":  "material-jobs/body_cast_shell/textures/body_cast_shell_ORM.png",
+                                                                 "scale":  1.0,
+                                                                 "baseColorStrength":  0.28,
+                                                                 "roughnessStrength":  0.55,
+                                                                 "metallicStrength":  1.0,
+                                                                 "normalStrength":  0.14,
+                                                                 "heightStrength":  0.08,
+                                                                 "heightDistance":  0.006,
+                                                                 "aoStrength":  0.08
+                                                             }
+                                          }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "body_cast_shell",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/body_cast_shell"
+                    },
+    "defaultsTouched":  false
+}

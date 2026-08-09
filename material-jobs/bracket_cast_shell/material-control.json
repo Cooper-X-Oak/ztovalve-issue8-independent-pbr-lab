@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-bracket_cast_shell",
+    "generatedAt":  "2026-08-08T07:59:01.102516+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "bracket_cast_shell":  {
+                                                 "baseColor":  [
+                                                                   0.5882352941176471,
+                                                                   0.611764705882353,
+                                                                   0.6
+                                                               ],
+                                                 "metallic":  1.0,
+                                                 "roughness":  0.54,
+                                                 "specular":  0.5,
+                                                 "normalStrength":  0.13,
+                                                 "aniso":  0.06,
+                                                 "textureSet":  {
+                                                                    "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                    "assetId":  "issue8-substance-style-bracket_cast_shell-v1",
+                                                                    "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                    "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                    "role":  "bracket_cast_shell",
+                                                                    "materialFamily":  "bracket cast metal",
+                                                                    "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                    "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                    "baseColor":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_baseColor.png",
+                                                                    "normal":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_normal.png",
+                                                                    "metallic":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_metallic.png",
+                                                                    "roughness":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_roughness.png",
+                                                                    "height":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_height.png",
+                                                                    "ao":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_ao.png",
+                                                                    "metallicRoughness":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_metallicRoughness.png",
+                                                                    "ORM":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_ORM.png",
+                                                                    "scale":  1.0,
+                                                                    "baseColorStrength":  0.28,
+                                                                    "roughnessStrength":  0.54,
+                                                                    "metallicStrength":  1.0,
+                                                                    "normalStrength":  0.13,
+                                                                    "heightStrength":  0.075,
+                                                                    "heightDistance":  0.006,
+                                                                    "aoStrength":  0.08
+                                                                }
+                                             }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "bracket_cast_shell",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/bracket_cast_shell"
+                    },
+    "defaultsTouched":  false
+}

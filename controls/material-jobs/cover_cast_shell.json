@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "cover_cast_shell",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/cover_cast_shell",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/cover_cast_shell/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/cover_cast_shell/material-control.json",
+    "renderStack":  "material-jobs/cover_cast_shell/render-stack.json",
+    "objectCount":  1,
+    "surfaceTarget":  "cast cover metal, related to body but independently tuned; no shared one-shot texture",
+    "materialFamily":  "cast metal cover",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-cover_cast_shell-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "cover_cast_shell",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_baseColor.png",
+                                                      "sha256":  "34ffaf9885ce776a5a1180e3d776613c147a4ab236180938fbb44c0311db14af",
+                                                      "bytes":  297249,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_normal.png",
+                                                   "sha256":  "b41d520a74dc4ffad8aa9190374c452035dbfe0c64cb2e73fb20c288a29dfddc",
+                                                   "bytes":  1708647,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_metallic.png",
+                                                     "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                                     "bytes":  3157,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_roughness.png",
+                                                      "sha256":  "56a5c9f1fd9df98b67719439edc64e2a5718dd6597af44b719d44e4f87fbfebd",
+                                                      "bytes":  345272,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_height.png",
+                                                   "sha256":  "1822022a292b38965121bbbd6b11176d99399973974eace7b2a3666b43c72939",
+                                                   "bytes":  700092,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_ao.png",
+                                               "sha256":  "95e86e7a4956ce5f784bfac949aecdbb69e36f0fbadd08ac35e7ec2bce308d9e",
+                                               "bytes":  223835,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_metallicRoughness.png",
+                                                              "sha256":  "23f1bd4d11d96e238d334a060d0153163f76ddbf64cea5a02638b15df7906d29",
+                                                              "bytes":  436814,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/cover_cast_shell/textures/cover_cast_shell_ORM.png",
+                                                "sha256":  "2933cc3e135a135b8bb99e3be156d76ab1d81f115a4cc1a386b7741025e70de8",
+                                                "bytes":  673642,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

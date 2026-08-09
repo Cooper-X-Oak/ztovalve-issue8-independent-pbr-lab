@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>issue8 material preview gate</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main class="app">
+      <section class="viewport">
+        <canvas id="scene"></canvas>
+        <div class="hud" id="hud">
+          <strong>issue8</strong>
+          <span id="status">loading</span>
+        </div>
+      </section>
+      <aside class="panel">
+        <header>
+          <h1>材质预览门禁</h1>
+          <p id="summary">读取独立 PBR job</p>
+        </header>
+
+        <div class="control-row">
+          <label for="view-mode">视图</label>
+          <select id="view-mode">
+            <option value="assembled">装配</option>
+            <option value="hero-exploded">商业爆炸</option>
+            <option value="exploded">角色爆炸</option>
+            <option value="material-grid">17 材质</option>
+          </select>
+        </div>
+
+        <div class="buttons view-actions">
+          <button id="reset-assembly" type="button">复位</button>
+          <button id="hold-hero-exploded" type="button">商业爆炸</button>
+          <button id="hold-exploded" type="button">角色爆炸</button>
+          <button id="show-material-grid" type="button">17 材质</button>
+          <button id="play-explode" type="button">播放</button>
+        </div>
+
+        <div class="slider">
+          <label for="explode-progress">展开 <span id="explode-value">0%</span></label>
+          <input id="explode-progress" type="range" min="0" max="1" step="0.01" value="0" />
+        </div>
+
+        <div class="slider">
+          <label for="axis-x-scale">X 横向 <span id="axis-x-value">1.00</span></label>
+          <input id="axis-x-scale" type="range" min="0.25" max="1.8" step="0.05" value="1" />
+        </div>
+        <div class="slider">
+          <label for="axis-z-scale">Y 纵向 <span id="axis-z-value">0.75</span></label>
+          <input id="axis-z-scale" type="range" min="0.15" max="1.6" step="0.05" value="0.75" />
+        </div>
+        <div class="slider">
+          <label for="axis-y-scale">Z 错层 <span id="axis-y-value">0.12</span></label>
+          <input id="axis-y-scale" type="range" min="0" max="0.55" step="0.01" value="0.12" />
+        </div>
+        <div class="slider">
+          <label for="axis-spacing-scale">间距 <span id="axis-spacing-value">1.00</span></label>
+          <input id="axis-spacing-scale" type="range" min="0.55" max="1.8" step="0.05" value="1" />
+        </div>
+
+        <div class="control-row">
+          <label for="mode">模式</label>
+          <select id="mode">
+            <option value="styled">styled</option>
+            <option value="texture-only">texture-only</option>
+          </select>
+        </div>
+
+        <div class="control-row" id="map-row">
+          <label for="map-channel">贴图</label>
+          <select id="map-channel">
+            <option value="baseColor">baseColor</option>
+            <option value="roughness">roughness</option>
+            <option value="metallic">metallic</option>
+            <option value="normal">normal</option>
+            <option value="height">height</option>
+            <option value="ao">ao</option>
+          </select>
+        </div>
+
+        <div class="buttons">
+          <button id="show-all" type="button">全部材质</button>
+          <button id="fit-view" type="button">适配</button>
+          <button id="copy-state" type="button">复制状态</button>
+        </div>
+
+        <div class="slider">
+          <label for="light-strength">灯光 <span id="light-value">1.00</span></label>
+          <input id="light-strength" type="range" min="0.2" max="2.2" step="0.05" value="1" />
+        </div>
+        <div class="slider">
+          <label for="env-strength">反射 <span id="env-value">1.00</span></label>
+          <input id="env-strength" type="range" min="0" max="2" step="0.05" value="1" />
+        </div>
+        <div class="slider">
+          <label for="roughness-scale">粗糙 <span id="roughness-value">1.00</span></label>
+          <input id="roughness-scale" type="range" min="0.35" max="1.8" step="0.05" value="1" />
+        </div>
+        <div class="slider">
+          <label for="normal-scale">法线 <span id="normal-value">1.00</span></label>
+          <input id="normal-scale" type="range" min="0" max="2" step="0.05" value="1" />
+        </div>
+        <div class="slider">
+          <label for="height-scale">高度 <span id="height-value">1.00</span></label>
+          <input id="height-scale" type="range" min="0" max="2" step="0.05" value="1" />
+        </div>
+
+        <h2>材质族</h2>
+        <div class="roles" id="roles"></div>
+
+        <h2>门禁状态</h2>
+        <pre id="gate-log"></pre>
+      </aside>
+    </main>
+    <script type="module" src="./src/app.js?v=latest-axis-lighting-2"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "schema": "ztovalve-lookdev-grounding/v1",
+  "grounding": {
+    "contactShadow": {
+      "enabled": true,
+      "radius": 0.42,
+      "opacity": 0.14,
+      "zOffset": 0.012
+    }
+  }
+}

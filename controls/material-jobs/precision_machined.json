@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "precision_machined",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/precision_machined",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/precision_machined/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/precision_machined/material-control.json",
+    "renderStack":  "material-jobs/precision_machined/render-stack.json",
+    "objectCount":  6,
+    "surfaceTarget":  "shafts, pins, keys and precision connectors; smooth directional metal",
+    "materialFamily":  "precision machined metal",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-precision_machined-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "precision_machined",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/precision_machined/textures/precision_machined_baseColor.png",
+                                                      "sha256":  "3b3c8f6afe9ec34095e90edfc6bfbac368eed92b08d039798b11bbae7ae9f909",
+                                                      "bytes":  135040,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/precision_machined/textures/precision_machined_normal.png",
+                                                   "sha256":  "131c099c0b1dfca95defd86f2b36d44e7d94073f629c79aacbcc80e040572110",
+                                                   "bytes":  29911,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/precision_machined/textures/precision_machined_metallic.png",
+                                                     "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                                     "bytes":  3157,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/precision_machined/textures/precision_machined_roughness.png",
+                                                      "sha256":  "467a7dbe0b4c5879e099f7532ca56f1f8ac359ee50522d1057c6b5a7661ee638",
+                                                      "bytes":  6568,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/precision_machined/textures/precision_machined_height.png",
+                                                   "sha256":  "c4e20e162a5bfb94ae6ad71715b3817adbd673c6eaebcdd2a65411e6af55b922",
+                                                   "bytes":  18474,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/precision_machined/textures/precision_machined_ao.png",
+                                               "sha256":  "0b5a983c642990f014a16e23c395575917098918bf33c5ac706a964bdb246795",
+                                               "bytes":  6557,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/precision_machined/textures/precision_machined_metallicRoughness.png",
+                                                              "sha256":  "e9fd9938937f05434363f99ba443fa1d547b2dbbb868b539f4fa96fc1d40bad0",
+                                                              "bytes":  9029,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/precision_machined/textures/precision_machined_ORM.png",
+                                                "sha256":  "03ebba01b99ee951ec318395a0e0dfd139d5082d8444ee02825e33ad573df6b1",
+                                                "bytes":  10760,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

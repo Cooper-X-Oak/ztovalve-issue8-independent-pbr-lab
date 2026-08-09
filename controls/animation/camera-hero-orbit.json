@@ -1,0 +1,37 @@
+{
+  "schema": "ztovalve-animation-camera/v1",
+  "timing": {
+    "from": 0.06,
+    "to": 0.74
+  },
+  "camera": {
+    "orbitDegrees": {
+      "base": 82,
+      "per": -6
+    },
+    "radius": {
+      "base": 2.55,
+      "per": -0.12
+    },
+    "height": {
+      "base": 0.28,
+      "per": 0.08
+    },
+    "targetX": {
+      "base": 0.0,
+      "per": 0.0
+    },
+    "targetZ": {
+      "base": 0.12,
+      "per": -0.03
+    },
+    "orthoScale": {
+      "base": 1.8,
+      "per": -0.18
+    },
+    "rollDegrees": {
+      "base": 0.0,
+      "per": 0.0
+    }
+  }
+}

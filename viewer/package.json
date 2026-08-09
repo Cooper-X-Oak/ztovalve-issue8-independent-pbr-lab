@@ -1,0 +1,9 @@
+{
+  "name": "issue8-material-preview-viewer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Realtime material preview gate for issue8 independent PBR jobs.",
+  "dependencies": {
+    "three": "^0.179.1"
+  }
+}

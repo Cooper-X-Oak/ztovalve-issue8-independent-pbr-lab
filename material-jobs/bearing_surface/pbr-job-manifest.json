@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:59:32.146125+00:00",
+    "role":  "bearing_surface",
+    "objectCount":  4,
+    "surfaceTarget":  "bearing surfaces, smooth metal with restrained directional marks; not rough cast",
+    "visualTarget":  "smooth bearing metal, restrained directionality",
+    "materialFamily":  "bearing metal",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/bearing_surface/textures/bearing_surface_baseColor.png",
+                                         "sha256":  "cb0add1cbd5a1c4ce86fc916e7226c383b48611e8bca8936b98e3916b3088151",
+                                         "bytes":  121894,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/bearing_surface/textures/bearing_surface_normal.png",
+                                      "sha256":  "821e1b8817ce48751857ec42938b4a9be6448f39cf4afb502c39ed5187db4e2e",
+                                      "bytes":  117996,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/bearing_surface/textures/bearing_surface_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/bearing_surface/textures/bearing_surface_roughness.png",
+                                         "sha256":  "7143d59af38659433a58861a4df45049bfa2590c30a8a50d586dc9793bb00ae1",
+                                         "bytes":  26219,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/bearing_surface/textures/bearing_surface_height.png",
+                                      "sha256":  "3dce5ada2c5a887d3dde8ca60c4a616650b0d3596157cde17f87a3c0c644db41",
+                                      "bytes":  74354,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/bearing_surface/textures/bearing_surface_ao.png",
+                                  "sha256":  "5bade784d103d432d734c75b16de6a1daaab1cf89789cdb446dd91cb34b1a25e",
+                                  "bytes":  17780,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/bearing_surface/textures/bearing_surface_metallicRoughness.png",
+                                                 "sha256":  "fe99049a33b19ee0d5146859068c5f9dbdb26ecde1670e082c6573eb8681ffbe",
+                                                 "bytes":  37171,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/bearing_surface/textures/bearing_surface_ORM.png",
+                                   "sha256":  "297b7755296c394e3b0622ea042fc0a98ce3e2e56189891bda640d60d9a7fe68",
+                                   "bytes":  39405,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/bearing_surface/material-control.json",
+                            "sha256":  "956fe3ebca8c605aee3569fe4e7ec5aef142b66017e7e2a8545a6278bf385396"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/bearing_surface/render-stack.json",
+                        "sha256":  "e82ff0badd74d66e832ee7a0a48a6c80b284bbb035ff5fc7e77d8cf79be6669b"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

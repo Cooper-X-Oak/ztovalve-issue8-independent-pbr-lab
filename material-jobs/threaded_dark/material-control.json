@@ -1,0 +1,65 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-threaded_dark",
+    "generatedAt":  "2026-08-08T08:00:41.035704+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "threaded_dark":  {
+                                            "baseColor":  [
+                                                              0.396078431372549,
+                                                              0.4196078431372549,
+                                                              0.40784313725490196
+                                                          ],
+                                            "metallic":  1.0,
+                                            "roughness":  0.4,
+                                            "specular":  0.5,
+                                            "normalStrength":  0.13,
+                                            "aniso":  0.35,
+                                            "textureSet":  {
+                                                               "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                               "assetId":  "issue8-substance-style-threaded_dark-v1",
+                                                               "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                               "license":  "CC0-1.0 project-generated procedural test texture",
+                                                               "role":  "threaded_dark",
+                                                               "materialFamily":  "dark threaded steel",
+                                                               "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                               "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                               "baseColor":  "material-jobs/threaded_dark/textures/threaded_dark_baseColor.png",
+                                                               "normal":  "material-jobs/threaded_dark/textures/threaded_dark_normal.png",
+                                                               "metallic":  "material-jobs/threaded_dark/textures/threaded_dark_metallic.png",
+                                                               "roughness":  "material-jobs/threaded_dark/textures/threaded_dark_roughness.png",
+                                                               "height":  "material-jobs/threaded_dark/textures/threaded_dark_height.png",
+                                                               "ao":  "material-jobs/threaded_dark/textures/threaded_dark_ao.png",
+                                                               "metallicRoughness":  "material-jobs/threaded_dark/textures/threaded_dark_metallicRoughness.png",
+                                                               "ORM":  "material-jobs/threaded_dark/textures/threaded_dark_ORM.png",
+                                                               "scale":  1.0,
+                                                               "baseColorStrength":  0.24,
+                                                               "roughnessStrength":  0.54,
+                                                               "metallicStrength":  1.0,
+                                                               "normalStrength":  0.13,
+                                                               "heightStrength":  0.08,
+                                                               "heightDistance":  0.006,
+                                                               "aoStrength":  0.1
+                                                           },
+                                            "thread":  0.22
+                                        }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "threaded_dark",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/threaded_dark"
+                    },
+    "defaultsTouched":  false
+}

@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "spring_steel",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/spring_steel",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/spring_steel/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/spring_steel/material-control.json",
+    "renderStack":  "material-jobs/spring_steel/render-stack.json",
+    "objectCount":  32,
+    "surfaceTarget":  "spring steel; dark metal with axis-aware highlights; springs visible as separate functional pieces",
+    "materialFamily":  "spring steel",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-spring_steel-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "spring_steel",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/spring_steel/textures/spring_steel_baseColor.png",
+                                                      "sha256":  "fe5169c84211c70881dc5c6666015319c48143586e257791f84412f0e45dc7df",
+                                                      "bytes":  161371,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/spring_steel/textures/spring_steel_normal.png",
+                                                   "sha256":  "e7d1708b2f9aa696f40d1207b35e26be4a622d75e33f9bed3fa67186666fba15",
+                                                   "bytes":  27697,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/spring_steel/textures/spring_steel_metallic.png",
+                                                     "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                                     "bytes":  3157,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/spring_steel/textures/spring_steel_roughness.png",
+                                                      "sha256":  "6ad8e87404076079ea482e2730c28436ffc872e9bb8151a7dd50c538d9e1d56a",
+                                                      "bytes":  348777,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/spring_steel/textures/spring_steel_height.png",
+                                                   "sha256":  "6b758403189c2056ece09d8889a04da9d1b629fccd8af9ca44c0ce0a2b8f03f4",
+                                                   "bytes":  21672,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/spring_steel/textures/spring_steel_ao.png",
+                                               "sha256":  "783855efd2883669279cabb18aea39accea3836d2df8cff12df3de3d4abf35e9",
+                                               "bytes":  6847,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/spring_steel/textures/spring_steel_metallicRoughness.png",
+                                                              "sha256":  "f076676c1b14e31879892eccc79590682f0046c6b1ef6292ca94b7f05684e86a",
+                                                              "bytes":  440728,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/spring_steel/textures/spring_steel_ORM.png",
+                                                "sha256":  "9bcef8112f1244a49bc2a52ed10483275d3e2de2de3ef7e988cd601157617ce7",
+                                                "bytes":  444414,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

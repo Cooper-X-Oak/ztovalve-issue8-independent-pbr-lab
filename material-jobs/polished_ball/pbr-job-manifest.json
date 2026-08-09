@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:54:43.498095+00:00",
+    "role":  "polished_ball",
+    "objectCount":  1,
+    "surfaceTarget":  "central ball; polished metal; low roughness; strong reflection; minimal bump; never cast-grain rough",
+    "visualTarget":  "central polished ball; low roughness, strong reflection, minimal bump",
+    "materialFamily":  "polished metal ball",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/polished_ball/textures/polished_ball_baseColor.png",
+                                         "sha256":  "44b19168511f2ab8e09f65106f30e490f624bbf5cc11b3a4dcfc36e433961446",
+                                         "bytes":  5337,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/polished_ball/textures/polished_ball_normal.png",
+                                      "sha256":  "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242",
+                                      "bytes":  5334,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/polished_ball/textures/polished_ball_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/polished_ball/textures/polished_ball_roughness.png",
+                                         "sha256":  "a62e72ccfa404800ed91f7c6e6c6a5cd4e9f7cee461ca6152bffe02995d8055c",
+                                         "bytes":  220855,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/polished_ball/textures/polished_ball_height.png",
+                                      "sha256":  "e06669fe7be418d29189d3da2937334ba14bd67b942e3d408e6d92c89855017e",
+                                      "bytes":  3157,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/polished_ball/textures/polished_ball_ao.png",
+                                  "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                  "bytes":  3157,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/polished_ball/textures/polished_ball_metallicRoughness.png",
+                                                 "sha256":  "2dd4b09d67ce6fc10c78af8239756ad04ba080e0a55b4c921a133cf5855ad412",
+                                                 "bytes":  282244,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/polished_ball/textures/polished_ball_ORM.png",
+                                   "sha256":  "df29d4c231203d0b1f36c902f19739e5af2258e39d3c3823f98dcad223648556",
+                                   "bytes":  282244,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/polished_ball/material-control.json",
+                            "sha256":  "1ad104a0f5efe64bc3ccbbcbf96ade7179cc7809c6334f6bf758efebd40bf489"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/polished_ball/render-stack.json",
+                        "sha256":  "7941ffc1c459c97d9377a3d5b04a369659e03bc54a06e56009e3a7ea5a383654"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

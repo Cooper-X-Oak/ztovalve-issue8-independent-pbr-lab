@@ -1,0 +1,36 @@
+{
+    "schema":  "ztovalve-control-stack/v1",
+    "kind":  "control_stack",
+    "name":  "zto-valve-issue8-independent-pbr-material-texture-only-gate",
+    "asset":  {
+                  "glb":  "assets/models/fixed-ball-valve-issue8-industrial-uv.glb"
+              },
+    "parts":  {
+                  "nodeMap":  "assets-manifest/node-map.json",
+                  "roles":  "controls/parts/role-segmentation.json"
+              },
+    "render":  "controls/render/material-gate-640.json",
+    "lookdev":  {
+                    "view":  "controls/lookdev/view-agx.json",
+                    "environment":  "controls/lookdev/environment-neutral.json",
+                    "grounding":  "controls/lookdev/grounding-contact-shadow.json",
+                    "lighting":  "controls/lighting/issue8-lighting.json",
+                    "materials":  "controls/materials/role-pbr-materials.json",
+                    "mapping":  "controls/mapping/role-render-mapping.json"
+                },
+    "animation":  {
+                      "features":  "controls/animation/features.json",
+                      "motion":  "controls/animation/axis-assembly-clean-blender.json",
+                      "camera":  "controls/animation/camera-hero-orbit.json"
+                  },
+    "handoff":  {
+                    "sourceIssue":  "issue8",
+                    "materialAuthority":  "material-jobs/\u003crole\u003e/pbr-job-manifest.json",
+                    "status":  "clean migrated repo; aggregate role texture source is not authoritative",
+                    "defaultsTouched":  false
+                },
+    "diagnostic":  {
+                       "materialMode":  "texture-only",
+                       "intent":  "prove migrated single-role PBR maps before styled/hero render"
+                   }
+}

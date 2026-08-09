@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "bracket_machined_faces",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/bracket_machined_faces",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/bracket_machined_faces/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/bracket_machined_faces/material-control.json",
+    "renderStack":  "material-jobs/bracket_machined_faces/render-stack.json",
+    "objectCount":  1,
+    "surfaceTarget":  "bracket installation faces; flatter cleaner machining than bracket shell",
+    "materialFamily":  "bracket machined face",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-bracket_machined_faces-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "bracket_machined_faces",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_baseColor.png",
+                                                      "sha256":  "4c971d57b06e0768f89f02663a74ad3feb546a3e287341992b0712b23f3b32c2",
+                                                      "bytes":  201203,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_normal.png",
+                                                   "sha256":  "71d0cd7bf7d4c7e28a13f2341049bffd75efd503edf7d2ec74949feb0a4a8b73",
+                                                   "bytes":  226295,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_metallic.png",
+                                                     "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                                     "bytes":  3157,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_roughness.png",
+                                                      "sha256":  "a7d1b282596d63a8c3dae580b9e1b4c79f5600889bf86a1cf1ed65a0e349f6cf",
+                                                      "bytes":  77675,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_height.png",
+                                                   "sha256":  "10afee016c829ab03830bea6b0e2c317babb7c9d55c1a9ca900f1c31345fa7b7",
+                                                   "bytes":  166565,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_ao.png",
+                                               "sha256":  "e6fc1e8b353395a0268e1cd645f3fcc1488f1797a58a1f90fb1fcea1da9cd6e2",
+                                               "bytes":  49872,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_metallicRoughness.png",
+                                                              "sha256":  "607f9f01c0f9e08438dcfb396bff718b3a75e891c9a7354cb9088f43cd07354d",
+                                                              "bytes":  93115,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/bracket_machined_faces/textures/bracket_machined_faces_ORM.png",
+                                                "sha256":  "7969a1552048824dd6d2ae13dad82d7944b9ffdae1d62af0eaeb1c266e17886a",
+                                                "bytes":  136375,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

@@ -1,0 +1,274 @@
+[
+    {
+        "Role":  "body_cast_shell",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\body_cast_shell\\texture-only"
+    },
+    {
+        "Role":  "body_cast_shell",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\body_cast_shell\\styled"
+    },
+    {
+        "Role":  "body_flange_machined_faces",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\body_flange_machined_faces\\texture-only"
+    },
+    {
+        "Role":  "body_flange_machined_faces",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\body_flange_machined_faces\\styled"
+    },
+    {
+        "Role":  "cover_cast_shell",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\cover_cast_shell\\texture-only"
+    },
+    {
+        "Role":  "cover_cast_shell",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\cover_cast_shell\\styled"
+    },
+    {
+        "Role":  "cover_flange_machined_faces",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\cover_flange_machined_faces\\texture-only"
+    },
+    {
+        "Role":  "cover_flange_machined_faces",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\cover_flange_machined_faces\\styled"
+    },
+    {
+        "Role":  "packing_box_cast_shell",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\packing_box_cast_shell\\texture-only"
+    },
+    {
+        "Role":  "packing_box_cast_shell",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\packing_box_cast_shell\\styled"
+    },
+    {
+        "Role":  "packing_box_machined_faces",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\packing_box_machined_faces\\texture-only"
+    },
+    {
+        "Role":  "packing_box_machined_faces",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\packing_box_machined_faces\\styled"
+    },
+    {
+        "Role":  "bracket_cast_shell",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bracket_cast_shell\\texture-only"
+    },
+    {
+        "Role":  "bracket_cast_shell",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bracket_cast_shell\\styled"
+    },
+    {
+        "Role":  "bracket_machined_faces",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bracket_machined_faces\\texture-only"
+    },
+    {
+        "Role":  "bracket_machined_faces",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bracket_machined_faces\\styled"
+    },
+    {
+        "Role":  "machined_surface",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\machined_surface\\texture-only"
+    },
+    {
+        "Role":  "machined_surface",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\machined_surface\\styled"
+    },
+    {
+        "Role":  "bearing_surface",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bearing_surface\\texture-only"
+    },
+    {
+        "Role":  "bearing_surface",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\bearing_surface\\styled"
+    },
+    {
+        "Role":  "precision_machined",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\precision_machined\\texture-only"
+    },
+    {
+        "Role":  "precision_machined",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\precision_machined\\styled"
+    },
+    {
+        "Role":  "polished_ball",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\polished_ball\\texture-only"
+    },
+    {
+        "Role":  "polished_ball",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\polished_ball\\styled"
+    },
+    {
+        "Role":  "soft_seal",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\soft_seal\\texture-only"
+    },
+    {
+        "Role":  "soft_seal",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\soft_seal\\styled"
+    },
+    {
+        "Role":  "gasket_graphite",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\gasket_graphite\\texture-only"
+    },
+    {
+        "Role":  "gasket_graphite",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\gasket_graphite\\styled"
+    },
+    {
+        "Role":  "fastener_zinc",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\fastener_zinc\\texture-only"
+    },
+    {
+        "Role":  "fastener_zinc",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\fastener_zinc\\styled"
+    },
+    {
+        "Role":  "threaded_dark",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\threaded_dark\\texture-only"
+    },
+    {
+        "Role":  "threaded_dark",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\threaded_dark\\styled"
+    },
+    {
+        "Role":  "spring_steel",
+        "Mode":  "texture-only",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\spring_steel\\texture-only"
+    },
+    {
+        "Role":  "spring_steel",
+        "Mode":  "styled",
+        "ExitCode":  0,
+        "Frame":  true,
+        "Manifest":  true,
+        "Out":  ".scratch\\issues\\issue8\\renders\\material-jobs-substance-v1\\spring_steel\\styled"
+    }
+]

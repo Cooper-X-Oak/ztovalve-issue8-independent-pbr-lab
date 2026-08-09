@@ -1,0 +1,113 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job/v1",
+    "role":  "fastener_zinc",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "migrated-from-issue8-single-role-job",
+    "sourceJobDirectory":  "material-jobs/fastener_zinc",
+    "sourceMaterialPreset":  "controls/materials/role-pbr-materials.json",
+    "sourceMappingPreset":  "controls/mapping/role-render-mapping.json",
+    "pbrJobManifest":  "material-jobs/fastener_zinc/pbr-job-manifest.json",
+    "materialControl":  "material-jobs/fastener_zinc/material-control.json",
+    "renderStack":  "material-jobs/fastener_zinc/render-stack.json",
+    "objectCount":  38,
+    "surfaceTarget":  "zinc/steel fastener hardware; readable edges, small scratches, not cast grain",
+    "materialFamily":  "zinc plated fastener metal",
+    "textureSet":  {
+                       "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                       "assetId":  "issue8-substance-style-fastener_zinc-v1",
+                       "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                       "license":  "CC0-1.0 project-generated procedural test texture",
+                       "role":  "fastener_zinc",
+                       "dimensions":  [
+                                          1024,
+                                          1024
+                                      ],
+                       "maps":  {
+                                    "baseColor":  {
+                                                      "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_baseColor.png",
+                                                      "sha256":  "ace68e11ce7ff99e6359df02495069a68b2a9cb4a4619c779aca5f7cb6c7bde8",
+                                                      "bytes":  223855,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "sRGB"
+                                                  },
+                                    "normal":  {
+                                                   "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_normal.png",
+                                                   "sha256":  "ddf34bff1e52c5d350908d30862e55efb5003174c2974dfd04280953ef84b2da",
+                                                   "bytes":  625843,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "metallic":  {
+                                                     "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_metallic.png",
+                                                     "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                                     "bytes":  3157,
+                                                     "dimensions":  [
+                                                                        1024,
+                                                                        1024
+                                                                    ],
+                                                     "colorSpace":  "Non-Color"
+                                                 },
+                                    "roughness":  {
+                                                      "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_roughness.png",
+                                                      "sha256":  "3803a17dadd01dd8bab94bff0f9a3cc19c270fb518d9d640533301a745fc1edb",
+                                                      "bytes":  392435,
+                                                      "dimensions":  [
+                                                                         1024,
+                                                                         1024
+                                                                     ],
+                                                      "colorSpace":  "Non-Color"
+                                                  },
+                                    "height":  {
+                                                   "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_height.png",
+                                                   "sha256":  "d5923d558a374cd5f664ce4d398c0eea34744bfa0f993c8a815afd228d96abe3",
+                                                   "bytes":  473677,
+                                                   "dimensions":  [
+                                                                      1024,
+                                                                      1024
+                                                                  ],
+                                                   "colorSpace":  "Non-Color"
+                                               },
+                                    "ao":  {
+                                               "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_ao.png",
+                                               "sha256":  "b566e5b1fdc253a3f968ae20ab7f1a161d248fe1374b2aae595d207f7ff92729",
+                                               "bytes":  166622,
+                                               "dimensions":  [
+                                                                  1024,
+                                                                  1024
+                                                              ],
+                                               "colorSpace":  "Non-Color"
+                                           },
+                                    "metallicRoughness":  {
+                                                              "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_metallicRoughness.png",
+                                                              "sha256":  "5ca7043cb1850523aa820f9e08913c4e30d5bc3508c96312faca3779bcc5d3bd",
+                                                              "bytes":  490016,
+                                                              "dimensions":  [
+                                                                                 1024,
+                                                                                 1024
+                                                                             ],
+                                                              "colorSpace":  "Non-Color"
+                                                          },
+                                    "ORM":  {
+                                                "path":  "material-jobs/fastener_zinc/textures/fastener_zinc_ORM.png",
+                                                "sha256":  "9652cc657ae4a5cc97bb405956febf74293cb0ccf8fc3037c6b56ee1556f5114",
+                                                "bytes":  664022,
+                                                "dimensions":  [
+                                                                   1024,
+                                                                   1024
+                                                               ],
+                                                "colorSpace":  "Non-Color"
+                                            }
+                                }
+                   },
+    "validation":  {
+                       "expectedMaps":  8,
+                       "requiredKind":  "single_role_substance_style_pbr_job",
+                       "rejectsAggregateRoleTextureSource":  true
+                   }
+}

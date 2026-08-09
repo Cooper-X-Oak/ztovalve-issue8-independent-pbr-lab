@@ -1,0 +1,94 @@
+{
+  "schema": "ztovalve-lookdev-lighting/v1",
+  "name": "issue8-commercial-exploded-softbox-v1",
+  "lighting": {
+    "strengthScale": 1.0,
+    "intent": "Commercial axis-exploded valve lighting: expose the fixed ball-center datum, readable moved body shell, X-axis part stacks, and small hardware arrays with broad softbox reflections.",
+    "lights": [
+      {
+        "name": "wide_front_key",
+        "role": "large neutral key softbox across exploded X-axis",
+        "offset": [-3.55, -2.25, 2.45],
+        "targetOffset": [0.0, 0.0, 0.08],
+        "energy": 360,
+        "shape": "RECTANGLE",
+        "size": 4.8,
+        "sizeY": 2.4,
+        "softSize": 1.0,
+        "color": [1.0, 0.985, 0.95]
+      },
+      {
+        "name": "camera_fill",
+        "role": "broad low fill so graphite seals and dark body cavities do not die",
+        "offset": [0.0, -4.15, 0.95],
+        "targetOffset": [0.0, 0.0, 0.02],
+        "energy": 150,
+        "shape": "RECTANGLE",
+        "size": 8.4,
+        "sizeY": 2.2,
+        "softSize": 1.4,
+        "color": [0.95, 0.97, 1.0]
+      },
+      {
+        "name": "ball_core_highlight",
+        "role": "compact softbox reflection for polished ball readability",
+        "offset": [-0.75, -2.75, 1.35],
+        "targetOffset": [-0.08, 0.0, 0.08],
+        "energy": 135,
+        "shape": "RECTANGLE",
+        "size": 1.6,
+        "sizeY": 0.7,
+        "softSize": 0.45,
+        "color": [1.0, 1.0, 0.98]
+      },
+      {
+        "name": "left_axis_edge",
+        "role": "left X-axis parts and moved cover edge separation",
+        "offset": [-3.35, -1.85, 1.55],
+        "targetOffset": [-0.28, 0.0, 0.0],
+        "energy": 230,
+        "shape": "RECTANGLE",
+        "size": 3.2,
+        "sizeY": 2.1,
+        "softSize": 0.8,
+        "color": [0.96, 0.98, 1.0]
+      },
+      {
+        "name": "right_axis_edge",
+        "role": "right X-axis body shell, seats, and fastener array edge separation",
+        "offset": [3.45, -1.9, 1.55],
+        "targetOffset": [0.32, 0.0, 0.0],
+        "energy": 260,
+        "shape": "RECTANGLE",
+        "size": 3.3,
+        "sizeY": 2.1,
+        "softSize": 0.8,
+        "color": [0.96, 0.98, 1.0]
+      },
+      {
+        "name": "top_strip",
+        "role": "stem, bracket, and vertical stack readability",
+        "offset": [0.0, -1.05, 4.05],
+        "targetOffset": [0.0, 0.0, 0.12],
+        "energy": 95,
+        "shape": "RECTANGLE",
+        "size": 5.5,
+        "sizeY": 0.85,
+        "softSize": 0.8,
+        "color": [1.0, 0.99, 0.96]
+      },
+      {
+        "name": "hardware_low_edge",
+        "role": "small fastener and spring array glints without hard point-light blowout",
+        "offset": [1.8, -3.55, 0.62],
+        "targetOffset": [0.22, 0.0, 0.0],
+        "energy": 115,
+        "shape": "RECTANGLE",
+        "size": 6.2,
+        "sizeY": 1.0,
+        "softSize": 0.9,
+        "color": [0.94, 0.97, 1.0]
+      }
+    ]
+  }
+}

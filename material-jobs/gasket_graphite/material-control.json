@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-gasket_graphite",
+    "generatedAt":  "2026-08-08T07:59:57.368120+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "gasket_graphite":  {
+                                              "baseColor":  [
+                                                                0.20392156862745098,
+                                                                0.21176470588235294,
+                                                                0.19215686274509805
+                                                            ],
+                                              "metallic":  0.0,
+                                              "roughness":  0.88,
+                                              "specular":  0.5,
+                                              "normalStrength":  0.1,
+                                              "aniso":  0.0,
+                                              "textureSet":  {
+                                                                 "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                 "assetId":  "issue8-substance-style-gasket_graphite-v1",
+                                                                 "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                 "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                 "role":  "gasket_graphite",
+                                                                 "materialFamily":  "graphite gasket",
+                                                                 "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                 "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                 "baseColor":  "material-jobs/gasket_graphite/textures/gasket_graphite_baseColor.png",
+                                                                 "normal":  "material-jobs/gasket_graphite/textures/gasket_graphite_normal.png",
+                                                                 "metallic":  "material-jobs/gasket_graphite/textures/gasket_graphite_metallic.png",
+                                                                 "roughness":  "material-jobs/gasket_graphite/textures/gasket_graphite_roughness.png",
+                                                                 "height":  "material-jobs/gasket_graphite/textures/gasket_graphite_height.png",
+                                                                 "ao":  "material-jobs/gasket_graphite/textures/gasket_graphite_ao.png",
+                                                                 "metallicRoughness":  "material-jobs/gasket_graphite/textures/gasket_graphite_metallicRoughness.png",
+                                                                 "ORM":  "material-jobs/gasket_graphite/textures/gasket_graphite_ORM.png",
+                                                                 "scale":  1.0,
+                                                                 "baseColorStrength":  0.48,
+                                                                 "roughnessStrength":  0.55,
+                                                                 "metallicStrength":  1.0,
+                                                                 "normalStrength":  0.1,
+                                                                 "heightStrength":  0.055,
+                                                                 "heightDistance":  0.006,
+                                                                 "aoStrength":  0.16
+                                                             }
+                                          }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "gasket_graphite",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/gasket_graphite"
+                    },
+    "defaultsTouched":  false
+}

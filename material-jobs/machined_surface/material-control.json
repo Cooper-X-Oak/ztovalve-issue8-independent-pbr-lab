@@ -1,0 +1,66 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-machined_surface",
+    "generatedAt":  "2026-08-08T07:59:21.915114+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "machined_surface":  {
+                                               "baseColor":  [
+                                                                 0.6980392156862745,
+                                                                 0.7215686274509804,
+                                                                 0.7137254901960784
+                                                             ],
+                                               "metallic":  1.0,
+                                               "roughness":  0.34,
+                                               "specular":  0.5,
+                                               "normalStrength":  0.08,
+                                               "aniso":  0.52,
+                                               "textureSet":  {
+                                                                  "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                  "assetId":  "issue8-substance-style-machined_surface-v1",
+                                                                  "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                  "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                  "role":  "machined_surface",
+                                                                  "materialFamily":  "general machined metal",
+                                                                  "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                  "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                  "baseColor":  "material-jobs/machined_surface/textures/machined_surface_baseColor.png",
+                                                                  "normal":  "material-jobs/machined_surface/textures/machined_surface_normal.png",
+                                                                  "metallic":  "material-jobs/machined_surface/textures/machined_surface_metallic.png",
+                                                                  "roughness":  "material-jobs/machined_surface/textures/machined_surface_roughness.png",
+                                                                  "height":  "material-jobs/machined_surface/textures/machined_surface_height.png",
+                                                                  "ao":  "material-jobs/machined_surface/textures/machined_surface_ao.png",
+                                                                  "metallicRoughness":  "material-jobs/machined_surface/textures/machined_surface_metallicRoughness.png",
+                                                                  "ORM":  "material-jobs/machined_surface/textures/machined_surface_ORM.png",
+                                                                  "scale":  1.0,
+                                                                  "baseColorStrength":  0.28,
+                                                                  "roughnessStrength":  0.54,
+                                                                  "metallicStrength":  1.0,
+                                                                  "normalStrength":  0.08,
+                                                                  "heightStrength":  0.045,
+                                                                  "heightDistance":  0.004,
+                                                                  "aoStrength":  0.09
+                                                              },
+                                               "waveRings":  0.07,
+                                               "radialRotation":  true
+                                           }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "machined_surface",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/machined_surface"
+                    },
+    "defaultsTouched":  false
+}

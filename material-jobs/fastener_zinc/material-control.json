@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-fastener_zinc",
+    "generatedAt":  "2026-08-08T08:00:07.238300+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "fastener_zinc":  {
+                                            "baseColor":  [
+                                                              0.6431372549019608,
+                                                              0.6666666666666666,
+                                                              0.6588235294117647
+                                                          ],
+                                            "metallic":  1.0,
+                                            "roughness":  0.38,
+                                            "specular":  0.5,
+                                            "normalStrength":  0.065,
+                                            "aniso":  0.25,
+                                            "textureSet":  {
+                                                               "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                               "assetId":  "issue8-substance-style-fastener_zinc-v1",
+                                                               "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                               "license":  "CC0-1.0 project-generated procedural test texture",
+                                                               "role":  "fastener_zinc",
+                                                               "materialFamily":  "zinc plated fastener metal",
+                                                               "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                               "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                               "baseColor":  "material-jobs/fastener_zinc/textures/fastener_zinc_baseColor.png",
+                                                               "normal":  "material-jobs/fastener_zinc/textures/fastener_zinc_normal.png",
+                                                               "metallic":  "material-jobs/fastener_zinc/textures/fastener_zinc_metallic.png",
+                                                               "roughness":  "material-jobs/fastener_zinc/textures/fastener_zinc_roughness.png",
+                                                               "height":  "material-jobs/fastener_zinc/textures/fastener_zinc_height.png",
+                                                               "ao":  "material-jobs/fastener_zinc/textures/fastener_zinc_ao.png",
+                                                               "metallicRoughness":  "material-jobs/fastener_zinc/textures/fastener_zinc_metallicRoughness.png",
+                                                               "ORM":  "material-jobs/fastener_zinc/textures/fastener_zinc_ORM.png",
+                                                               "scale":  1.0,
+                                                               "baseColorStrength":  0.24,
+                                                               "roughnessStrength":  0.48,
+                                                               "metallicStrength":  1.0,
+                                                               "normalStrength":  0.065,
+                                                               "heightStrength":  0.035,
+                                                               "heightDistance":  0.004,
+                                                               "aoStrength":  0.08
+                                                           }
+                                        }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "fastener_zinc",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/fastener_zinc"
+                    },
+    "defaultsTouched":  false
+}

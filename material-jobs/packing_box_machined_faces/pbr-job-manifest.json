@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:58:53.062327+00:00",
+    "role":  "packing_box_machined_faces",
+    "objectCount":  1,
+    "surfaceTarget":  "packing-box machined contact faces; separate from shell and readable in close-up",
+    "visualTarget":  "packing-box machined contact faces, distinct from shell",
+    "materialFamily":  "small machined face",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_baseColor.png",
+                                         "sha256":  "0f4d441d4d25ac8669875298b3bab980c3feff6f8cb2fce703f45072611e4e2f",
+                                         "bytes":  202205,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_normal.png",
+                                      "sha256":  "f52960882fefa7c51bb8ce37d2bcc50a2f094ce9adbc24190f37adc3b45fdb30",
+                                      "bytes":  225603,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_roughness.png",
+                                         "sha256":  "55f1deb674f94e4dc9cec875fbc946e15d983edb7bab4cda49cf675d630bb52e",
+                                         "bytes":  77367,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_height.png",
+                                      "sha256":  "a8de85d5baa11320babd97264c237e2d8f92f3e0544079bf4302d9b812403f9d",
+                                      "bytes":  166785,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_ao.png",
+                                  "sha256":  "6091c3d62b468eeb7f0af9b3da633f7db0b77af2ca300371df5061bf9fd8ecff",
+                                  "bytes":  50969,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_metallicRoughness.png",
+                                                 "sha256":  "45f1236dc3ff457757ce7d6428c920ff9ee991774d7057af7d89222082fa8e26",
+                                                 "bytes":  92675,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_ORM.png",
+                                   "sha256":  "5aa27c9129d20bf8cecc4d9d61954563374a1962309e0a5f2e4cb9dbea64b771",
+                                   "bytes":  137286,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/packing_box_machined_faces/material-control.json",
+                            "sha256":  "bf56c662e6a1b52adc77c423b11742711393e9abf597cbbca647c65565598385"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/packing_box_machined_faces/render-stack.json",
+                        "sha256":  "4e27d039d20713658361662aaf5c831c2e6ebf95491d3deb671010cbbf45d6f5"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

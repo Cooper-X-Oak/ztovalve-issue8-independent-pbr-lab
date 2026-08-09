@@ -1,0 +1,2928 @@
+{
+  "schema": "ztovalve-fixed-ball-valve-hero-render/v1",
+  "status": "rendered-sample",
+  "generatedAt": "2026-08-08T08:12:51.372499+00:00",
+  "renderer": "standalone Blender script; corrected GLB normals + control-stack lookdev",
+  "sources": {
+    "glb": {
+      "path": ".scratch/issues/issue8/assets/models/fixed-ball-valve-issue8-industrial-uv.glb",
+      "sha256": "a80136be05e0c80d78badd1458802665c033390940c1d606af4cdfde2bf7ff44"
+    },
+    "nodeMap": {
+      "path": ".scratch/issues/issue8/assets-manifest/fixed-ball-valve-issue8-industrial-uv-node-map.json",
+      "sha256": "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+    },
+    "controls": {
+      "stack": {
+        "path": ".scratch/issues/issue8/material-jobs/threaded_dark/render-stack.json",
+        "sha256": "270bc76b70560fd22494af73f4ff1c156adc0dde12fb3ad0d123d4574cef9f16",
+        "schema": "ztovalve-control-stack/v1",
+        "name": "issue8-substance-per-role-stack-threaded_dark"
+      },
+      "parts.nodeMap": {
+        "path": ".scratch/issues/issue8/assets-manifest/fixed-ball-valve-issue8-industrial-uv-node-map.json",
+        "sha256": "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+      },
+      "parts.roles": {
+        "path": ".scratch/issues/issue8/controls/parts/issue8-step-role-segmentation.json",
+        "sha256": "0e7d0a29b88ab8fbd12597edd8eee0248ff71fc0693a8400e94bfb5570474846",
+        "schema": "ztovalve-part-roles-control/v1",
+        "name": "issue8-step-role-segmentation"
+      },
+      "render": {
+        "path": ".scratch/issues/issue8/controls/render/issue8-per-role-substance-lookdev-render.json",
+        "sha256": "92507e069106e533e3670738f4e6c81fd69b75bf31df414e795f83119537e455",
+        "schema": "ztovalve-render-control/v1",
+        "name": "issue8-per-role-substance-lookdev-render"
+      },
+      "lookdev.view": {
+        "path": ".scratch/issues/issue8/controls/render/issue8-view.json",
+        "sha256": "1fcf7c8a31e2d227c0bb3d07c0681f51be07b2226e60aee925b4e5be3adfece9",
+        "schema": "ztovalve-lookdev-view/v1"
+      },
+      "lookdev.environment": {
+        "path": ".scratch/issues/issue8/controls/render/issue8-environment.json",
+        "sha256": "00af2664f239e41d1db8b3443bfa7984858788cffcd181debe7e6d9e6b91e9fa",
+        "schema": "ztovalve-lookdev-environment/v1"
+      },
+      "lookdev.grounding": {
+        "path": ".scratch/issues/issue8/controls/render/issue8-grounding.json",
+        "sha256": "368bee29f27a2560b6033001abb2e0e098609b7d63a4bb59e566d70edf0c37b3",
+        "schema": "ztovalve-lookdev-grounding/v1"
+      },
+      "lookdev.lighting": {
+        "path": ".scratch/issues/issue8/controls/render/issue8-lighting.json",
+        "sha256": "35f6a0dcd7e8009e7464899813f697fbd50776ea78c5754fa01af33bafb89d4b",
+        "schema": "ztovalve-lookdev-lighting/v1"
+      },
+      "lookdev.materials": {
+        "path": ".scratch/issues/issue8/material-jobs/threaded_dark/material-control.json",
+        "sha256": "c407ca8d174afe7d3545387506dbaa30134abf79146bb9ea056e71fabaac113f",
+        "schema": "ztovalve-material-control/v1",
+        "name": "issue8-substance-pbr-threaded_dark"
+      },
+      "lookdev.mapping": {
+        "path": ".scratch/issues/issue8/controls/mapping/issue8-renderer-role-mapping.json",
+        "sha256": "93851c131eebd2ac8bf9b272f981a8db6a90886c4979d6d7d1060ac4df3ebae8",
+        "schema": "ztovalve-render-mapping-control/v1",
+        "name": "issue8-renderer-role-mapping"
+      },
+      "animation.camera": {
+        "path": ".scratch/issues/issue8/controls/animation/issue8-per-role-substance-camera.json",
+        "sha256": "bca5051a5c4069101ad58755e6a8968cb0dcd9972c84eeacbcb7c30ca9b9508b",
+        "schema": "ztovalve-animation-camera/v1"
+      }
+    }
+  },
+  "pipelineIsolation": {
+    "usesCorrectedIndependentGlb": true,
+    "clearsCustomSplitNormals": true,
+    "rebuildsNormalsLocally": true,
+    "readsNodeMap": true,
+    "readsControlStack": true,
+    "readsAnimationControls": true,
+    "readsLookdevControls": true,
+    "readsMappingControls": true,
+    "usesLegacyOfficialRenderer": false,
+    "usesLegacyMaterialMatrix": false,
+    "usesLegacySplitFlangeFaces": false
+  },
+  "renderProfile": {
+    "renderer": "Blender Cycles",
+    "width": 960,
+    "height": 640,
+    "samples": 24,
+    "filmTransparent": true,
+    "pngColorMode": "RGBA",
+    "background": "transparent",
+    "viewTransform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": -0.3499999940395355,
+    "environment": {
+      "hdri": "",
+      "loaded": false,
+      "strength": 0.18,
+      "rotationDegrees": 0.0
+    },
+    "frameCount": 240,
+    "renderedFrameCount": 1,
+    "renderedFrameList": [
+      120
+    ],
+    "stagingFrameNames": "0000.png..0239.png"
+  },
+  "importedMeshObjects": 142,
+  "materialRoleIsolation": {
+    "enabled": true,
+    "roles": [
+      "threaded_dark"
+    ],
+    "visibleObjectCount": 38,
+    "hiddenObjectCount": 104,
+    "visibleCounts": {
+      "threaded_dark": 38
+    },
+    "hiddenCounts": {
+      "bearing_surface": 4,
+      "body_cast_shell": 1,
+      "body_flange_machined_faces": 1,
+      "bracket_cast_shell": 1,
+      "bracket_machined_faces": 1,
+      "cover_cast_shell": 1,
+      "cover_flange_machined_faces": 1,
+      "fastener_zinc": 38,
+      "gasket_graphite": 6,
+      "machined_surface": 7,
+      "packing_box_cast_shell": 1,
+      "packing_box_machined_faces": 1,
+      "polished_ball": 1,
+      "precision_machined": 6,
+      "soft_seal": 2,
+      "spring_steel": 32
+    }
+  },
+  "nodeMapOrderAudit": {
+    "nodeMapSchema": "ztovalve-fixed-ball-valve-industrial-uv-node-map/v2",
+    "meshObjects": 142,
+    "nodeMapRecords": 142,
+    "bindingMode": "object-extra-render-record-id",
+    "allNamesMatchAfterNumericSuffixStrip": true,
+    "mismatchCount": 0,
+    "nodeMapSourceGlb": {
+      "path": ".scratch/issues/issue8/assets/models/fixed-ball-valve-issue8-industrial-uv.glb",
+      "sha256": "a80136be05e0c80d78badd1458802665c033390940c1d606af4cdfde2bf7ff44"
+    },
+    "nodeMapSourceGlbSha256MatchesImportedGlb": true,
+    "orderSample": [
+      {
+        "ordinal": 0,
+        "objectName": "阀体_cast_shell",
+        "productName": "阀体",
+        "sourceProductName": "阀体",
+        "nodeIndex": 1,
+        "sourceNodeIndex": 1
+      },
+      {
+        "ordinal": 1,
+        "objectName": "阀体_flange_machined_faces",
+        "productName": "阀体",
+        "sourceProductName": "阀体",
+        "nodeIndex": 1,
+        "sourceNodeIndex": 1
+      },
+      {
+        "ordinal": 2,
+        "objectName": "弹簧",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "nodeIndex": 2,
+        "sourceNodeIndex": 2
+      },
+      {
+        "ordinal": 3,
+        "objectName": "阀座密封圈",
+        "productName": "阀座密封圈",
+        "sourceProductName": "阀座密封圈",
+        "nodeIndex": 3,
+        "sourceNodeIndex": 3
+      },
+      {
+        "ordinal": 4,
+        "objectName": "阀座压圈",
+        "productName": "阀座压圈",
+        "sourceProductName": "阀座压圈",
+        "nodeIndex": 4,
+        "sourceNodeIndex": 4
+      },
+      {
+        "ordinal": 137,
+        "objectName": "spring lock washers--normal type gb_GB_FASTENER_WASHER_SW 10.007",
+        "productName": "spring lock washers--normal type gb_GB_FASTENER_WASHER_SW 10",
+        "sourceProductName": "spring lock washers--normal type gb_GB_FASTENER_WASHER_SW 10",
+        "nodeIndex": 134,
+        "sourceNodeIndex": 134
+      },
+      {
+        "ordinal": 138,
+        "objectName": "连接轴",
+        "productName": "连接轴",
+        "sourceProductName": "连接轴",
+        "nodeIndex": 135,
+        "sourceNodeIndex": 135
+      },
+      {
+        "ordinal": 139,
+        "objectName": "平键",
+        "productName": "平键",
+        "sourceProductName": "平键",
+        "nodeIndex": 136,
+        "sourceNodeIndex": 136
+      },
+      {
+        "ordinal": 140,
+        "objectName": "排污阀垫片",
+        "productName": "排污阀垫片",
+        "sourceProductName": "排污阀垫片",
+        "nodeIndex": 137,
+        "sourceNodeIndex": 137
+      },
+      {
+        "ordinal": 141,
+        "objectName": "堵头",
+        "productName": "堵头",
+        "sourceProductName": "堵头",
+        "nodeIndex": 138,
+        "sourceNodeIndex": 138
+      }
+    ],
+    "materialAssignmentCounts": {
+      "bearing_surface": 4,
+      "body_cast_shell": 1,
+      "body_flange_machined_faces": 1,
+      "bracket_cast_shell": 1,
+      "bracket_machined_faces": 1,
+      "cover_cast_shell": 1,
+      "cover_flange_machined_faces": 1,
+      "fastener_zinc": 38,
+      "gasket_graphite": 6,
+      "machined_surface": 7,
+      "packing_box_cast_shell": 1,
+      "packing_box_machined_faces": 1,
+      "polished_ball": 1,
+      "precision_machined": 6,
+      "soft_seal": 2,
+      "spring_steel": 32,
+      "threaded_dark": 38
+    },
+    "materialAssignmentSample": [
+      {
+        "ordinal": 0,
+        "objectName": "阀体_cast_shell",
+        "productName": "阀体",
+        "sourceProductName": "阀体",
+        "animationGroup": "central-body-anchor",
+        "materialKey": "body_cast_shell",
+        "uvFamily": "issue8-body-cast-shell",
+        "uvRequired": false,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "objectName": "阀体_flange_machined_faces",
+        "productName": "阀体",
+        "sourceProductName": "阀体",
+        "animationGroup": "central-body-anchor",
+        "materialKey": "body_flange_machined_faces",
+        "uvFamily": "issue8-body-flange-machined",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "objectName": "弹簧",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 3,
+        "objectName": "阀座密封圈",
+        "productName": "阀座密封圈",
+        "sourceProductName": "阀座密封圈",
+        "animationGroup": "seat-seal-system",
+        "materialKey": "soft_seal",
+        "uvFamily": "issue8-seal-cylindrical",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "objectName": "阀座压圈",
+        "productName": "阀座压圈",
+        "sourceProductName": "阀座压圈",
+        "animationGroup": "seat-seal-system",
+        "materialKey": "machined_surface",
+        "uvFamily": "issue8-machined-planar",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "objectName": "阀座盘根",
+        "productName": "阀座盘根",
+        "sourceProductName": "阀座盘根",
+        "animationGroup": "seat-seal-system",
+        "materialKey": "gasket_graphite",
+        "uvFamily": "issue8-graphite-ring",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "objectName": "阀座",
+        "productName": "阀座",
+        "sourceProductName": "阀座",
+        "animationGroup": "seat-seal-system",
+        "materialKey": "machined_surface",
+        "uvFamily": "issue8-machined-planar",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "objectName": "弹簧.001",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 8,
+        "objectName": "弹簧.002",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 9,
+        "objectName": "弹簧.003",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 10,
+        "objectName": "弹簧.004",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 11,
+        "objectName": "弹簧.005",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 12,
+        "objectName": "弹簧.006",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 13,
+        "objectName": "弹簧.007",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 14,
+        "objectName": "弹簧.008",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 15,
+        "objectName": "弹簧.009",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 16,
+        "objectName": "弹簧.010",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 17,
+        "objectName": "弹簧.011",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 18,
+        "objectName": "弹簧.012",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 19,
+        "objectName": "弹簧.013",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 20,
+        "objectName": "弹簧.014",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 21,
+        "objectName": "弹簧.015",
+        "productName": "弹簧",
+        "sourceProductName": "弹簧",
+        "animationGroup": "fasteners-small-hardware",
+        "materialKey": "spring_steel",
+        "uvFamily": "issue8-spring-procedural",
+        "uvRequired": false,
+        "uvLayerNames": []
+      },
+      {
+        "ordinal": 22,
+        "objectName": "球体",
+        "productName": "球体",
+        "sourceProductName": "球体",
+        "animationGroup": "ball-trunnion-core",
+        "materialKey": "polished_ball",
+        "uvFamily": "issue8-polished-ball-spherical",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      },
+      {
+        "ordinal": 23,
+        "objectName": "固定轴",
+        "productName": "固定轴",
+        "sourceProductName": "固定轴",
+        "animationGroup": "ball-trunnion-core",
+        "materialKey": "precision_machined",
+        "uvFamily": "issue8-precision-cylindrical",
+        "uvRequired": true,
+        "uvLayerNames": [
+          "UVMap"
+        ]
+      }
+    ],
+    "uvRequirementGate": {
+      "schema": "ztovalve-render-uv-gate-audit/v1",
+      "status": "pass",
+      "requiredRoleObjectMissingUvCount": 0,
+      "missingRequiredUvSample": [],
+      "roles": {
+        "bearing_surface": {
+          "objectCount": 4,
+          "withUvObjectCount": 4,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-bearing-cylindrical": 4
+          },
+          "sample": [
+            {
+              "ordinal": 25,
+              "objectName": "固定轴轴承",
+              "productName": "固定轴轴承",
+              "nodeIndex": 25,
+              "sourceNodeIndex": 25,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 39,
+              "objectName": "止推垫",
+              "productName": "止推垫",
+              "nodeIndex": 39,
+              "sourceNodeIndex": 39,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 43,
+              "objectName": "阀杆轴承",
+              "productName": "阀杆轴承",
+              "nodeIndex": 42,
+              "sourceNodeIndex": 42,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 44,
+              "objectName": "球体轴承",
+              "productName": "球体轴承",
+              "nodeIndex": 43,
+              "sourceNodeIndex": 43,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "body_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-body-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 0,
+              "objectName": "阀体_cast_shell",
+              "productName": "阀体",
+              "nodeIndex": 1,
+              "sourceNodeIndex": 1,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "body_flange_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-body-flange-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 1,
+              "objectName": "阀体_flange_machined_faces",
+              "productName": "阀体",
+              "nodeIndex": 1,
+              "sourceNodeIndex": 1,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "bracket_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-bracket-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 110,
+              "objectName": "支架_cast_shell",
+              "productName": "支架",
+              "nodeIndex": 108,
+              "sourceNodeIndex": 108,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "bracket_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-bracket-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 111,
+              "objectName": "支架_machined_faces",
+              "productName": "支架",
+              "nodeIndex": 108,
+              "sourceNodeIndex": 108,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "cover_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-cover-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 64,
+              "objectName": "阀盖_cast_shell",
+              "productName": "阀盖",
+              "nodeIndex": 63,
+              "sourceNodeIndex": 63,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "cover_flange_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-cover-flange-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 65,
+              "objectName": "阀盖_flange_machined_faces",
+              "productName": "阀盖",
+              "nodeIndex": 63,
+              "sourceNodeIndex": 63,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "fastener_zinc": {
+          "objectCount": 38,
+          "withUvObjectCount": 38,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-fastener-cylindrical": 38
+          },
+          "sample": [
+            {
+              "ordinal": 27,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 27,
+              "sourceNodeIndex": 27,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 28,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.001",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 28,
+              "sourceNodeIndex": 28,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 29,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.002",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 29,
+              "sourceNodeIndex": 29,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 30,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.003",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 30,
+              "sourceNodeIndex": 30,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 31,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.004",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 31,
+              "sourceNodeIndex": 31,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 32,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.005",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 32,
+              "sourceNodeIndex": 32,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "gasket_graphite": {
+          "objectCount": 6,
+          "withUvObjectCount": 6,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-graphite-ring": 6
+          },
+          "sample": [
+            {
+              "ordinal": 5,
+              "objectName": "阀座盘根",
+              "productName": "阀座盘根",
+              "nodeIndex": 5,
+              "sourceNodeIndex": 5,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 24,
+              "objectName": "固定轴垫片",
+              "productName": "固定轴垫片",
+              "nodeIndex": 24,
+              "sourceNodeIndex": 24,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 42,
+              "objectName": "填料箱垫片",
+              "productName": "填料箱垫片",
+              "nodeIndex": 41,
+              "sourceNodeIndex": 41,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 45,
+              "objectName": "填料",
+              "productName": "填料",
+              "nodeIndex": 44,
+              "sourceNodeIndex": 44,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 66,
+              "objectName": "中道垫片",
+              "productName": "中道垫片",
+              "nodeIndex": 64,
+              "sourceNodeIndex": 64,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 140,
+              "objectName": "排污阀垫片",
+              "productName": "排污阀垫片",
+              "nodeIndex": 137,
+              "sourceNodeIndex": 137,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "machined_surface": {
+          "objectCount": 7,
+          "withUvObjectCount": 7,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-machined-planar": 7
+          },
+          "sample": [
+            {
+              "ordinal": 4,
+              "objectName": "阀座压圈",
+              "productName": "阀座压圈",
+              "nodeIndex": 4,
+              "sourceNodeIndex": 4,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 6,
+              "objectName": "阀座",
+              "productName": "阀座",
+              "nodeIndex": 6,
+              "sourceNodeIndex": 6,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 54,
+              "objectName": "填料压圈",
+              "productName": "填料压圈",
+              "nodeIndex": 53,
+              "sourceNodeIndex": 53,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 55,
+              "objectName": "填料压盖",
+              "productName": "填料压盖",
+              "nodeIndex": 54,
+              "sourceNodeIndex": 54,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 67,
+              "objectName": "阀座.001",
+              "productName": "阀座",
+              "nodeIndex": 65,
+              "sourceNodeIndex": 65,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 68,
+              "objectName": "阀座压圈.001",
+              "productName": "阀座压圈",
+              "nodeIndex": 66,
+              "sourceNodeIndex": 66,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "packing_box_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-packing-box-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 40,
+              "objectName": "填料箱_cast_shell",
+              "productName": "填料箱",
+              "nodeIndex": 40,
+              "sourceNodeIndex": 40,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "packing_box_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-packing-box-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 41,
+              "objectName": "填料箱_machined_faces",
+              "productName": "填料箱",
+              "nodeIndex": 40,
+              "sourceNodeIndex": 40,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "polished_ball": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-polished-ball-spherical": 1
+          },
+          "sample": [
+            {
+              "ordinal": 22,
+              "objectName": "球体",
+              "productName": "球体",
+              "nodeIndex": 22,
+              "sourceNodeIndex": 22,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "precision_machined": {
+          "objectCount": 6,
+          "withUvObjectCount": 6,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-precision-cylindrical": 6
+          },
+          "sample": [
+            {
+              "ordinal": 23,
+              "objectName": "固定轴",
+              "productName": "固定轴",
+              "nodeIndex": 23,
+              "sourceNodeIndex": 23,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 38,
+              "objectName": "阀杆",
+              "productName": "阀杆",
+              "nodeIndex": 38,
+              "sourceNodeIndex": 38,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 112,
+              "objectName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "productName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "nodeIndex": 109,
+              "sourceNodeIndex": 109,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 113,
+              "objectName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26.001",
+              "productName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "nodeIndex": 110,
+              "sourceNodeIndex": 110,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 138,
+              "objectName": "连接轴",
+              "productName": "连接轴",
+              "nodeIndex": 135,
+              "sourceNodeIndex": 135,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 139,
+              "objectName": "平键",
+              "productName": "平键",
+              "nodeIndex": 136,
+              "sourceNodeIndex": 136,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "soft_seal": {
+          "objectCount": 2,
+          "withUvObjectCount": 2,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-seal-cylindrical": 2
+          },
+          "sample": [
+            {
+              "ordinal": 3,
+              "objectName": "阀座密封圈",
+              "productName": "阀座密封圈",
+              "nodeIndex": 3,
+              "sourceNodeIndex": 3,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 69,
+              "objectName": "阀座密封圈.001",
+              "productName": "阀座密封圈",
+              "nodeIndex": 67,
+              "sourceNodeIndex": 67,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "spring_steel": {
+          "objectCount": 32,
+          "withUvObjectCount": 0,
+          "missingUvObjectCount": 32,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-spring-procedural": 32
+          },
+          "sample": [
+            {
+              "ordinal": 2,
+              "objectName": "弹簧",
+              "productName": "弹簧",
+              "nodeIndex": 2,
+              "sourceNodeIndex": 2,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 7,
+              "objectName": "弹簧.001",
+              "productName": "弹簧",
+              "nodeIndex": 7,
+              "sourceNodeIndex": 7,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 8,
+              "objectName": "弹簧.002",
+              "productName": "弹簧",
+              "nodeIndex": 8,
+              "sourceNodeIndex": 8,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 9,
+              "objectName": "弹簧.003",
+              "productName": "弹簧",
+              "nodeIndex": 9,
+              "sourceNodeIndex": 9,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 10,
+              "objectName": "弹簧.004",
+              "productName": "弹簧",
+              "nodeIndex": 10,
+              "sourceNodeIndex": 10,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 11,
+              "objectName": "弹簧.005",
+              "productName": "弹簧",
+              "nodeIndex": 11,
+              "sourceNodeIndex": 11,
+              "uvLayerNames": [],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "threaded_dark": {
+          "objectCount": 38,
+          "withUvObjectCount": 38,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-threaded-cylindrical": 38
+          },
+          "sample": [
+            {
+              "ordinal": 26,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 26,
+              "sourceNodeIndex": 26,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 33,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.001",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 33,
+              "sourceNodeIndex": 33,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 34,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.002",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 34,
+              "sourceNodeIndex": 34,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 35,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.003",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 35,
+              "sourceNodeIndex": 35,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 36,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.004",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 36,
+              "sourceNodeIndex": 36,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 37,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.005",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 37,
+              "sourceNodeIndex": 37,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        }
+      }
+    }
+  },
+  "lookdevAudit": {
+    "allowedTopLevelKeys": [
+      "view",
+      "environment",
+      "grounding",
+      "lighting",
+      "materials",
+      "mapping"
+    ],
+    "appliedTopLevelKeys": [
+      "environment",
+      "grounding",
+      "lighting",
+      "mapping",
+      "materials",
+      "view"
+    ],
+    "ignoredTopLevelKeys": []
+  },
+  "mappingAudit": {
+    "schema": "ztovalve-render-mapping-audit/v1",
+    "materialDiagnosticMode": "texture-only",
+    "control": {
+      "default": {
+        "mode": "box",
+        "coordinate": "Generated",
+        "projection": "BOX",
+        "scale": 1.0,
+        "checkerScale": 12,
+        "checkerVectorScale": 1.0,
+        "intent": "fallback mapping only"
+      },
+      "roles": {
+        "body_cast_shell": {
+          "mode": "box",
+          "coordinate": "Generated",
+          "projection": "BOX",
+          "scale": 1.15,
+          "checkerScale": 14,
+          "checkerVectorScale": 1.0,
+          "intent": "large cast shell projection"
+        },
+        "body_flange_machined_faces": {
+          "mode": "uv-planar",
+          "coordinate": "UV",
+          "projection": "FLAT",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 1.0,
+          "checkerScale": 12,
+          "intent": "split valve-body machined faces"
+        },
+        "cover_cast_shell": {
+          "mode": "box",
+          "coordinate": "Generated",
+          "projection": "BOX",
+          "scale": 1.1,
+          "checkerScale": 14,
+          "intent": "cover cast shell projection"
+        },
+        "cover_flange_machined_faces": {
+          "mode": "uv-planar",
+          "coordinate": "UV",
+          "projection": "FLAT",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 1.0,
+          "checkerScale": 12,
+          "intent": "split cover machined faces"
+        },
+        "packing_box_cast_shell": {
+          "mode": "box",
+          "coordinate": "Generated",
+          "projection": "BOX",
+          "scale": 1.1,
+          "checkerScale": 14,
+          "intent": "packing box shell projection"
+        },
+        "packing_box_machined_faces": {
+          "mode": "uv-planar",
+          "coordinate": "UV",
+          "projection": "FLAT",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 1.0,
+          "checkerScale": 12,
+          "intent": "packing box machined faces"
+        },
+        "bracket_cast_shell": {
+          "mode": "box",
+          "coordinate": "Generated",
+          "projection": "BOX",
+          "scale": 1.12,
+          "checkerScale": 15,
+          "intent": "bracket cast shell projection"
+        },
+        "bracket_machined_faces": {
+          "mode": "uv-planar",
+          "coordinate": "UV",
+          "projection": "FLAT",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 1.0,
+          "checkerScale": 12,
+          "intent": "bracket installation and contact faces"
+        },
+        "machined_surface": {
+          "mode": "uv-planar",
+          "coordinate": "UV",
+          "projection": "FLAT",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.95,
+          "checkerScale": 10,
+          "intent": "general machined seats and rings"
+        },
+        "bearing_surface": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.9,
+          "checkerScale": 12,
+          "intent": "bearing-like cylindrical parts"
+        },
+        "precision_machined": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.9,
+          "checkerScale": 10,
+          "intent": "shafts, pins, keys and precision connectors"
+        },
+        "polished_ball": {
+          "mode": "spherical",
+          "coordinate": "UV",
+          "projection": "SPHERE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.8,
+          "checkerScale": 8,
+          "intent": "spherical valve ball"
+        },
+        "soft_seal": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.72,
+          "checkerScale": 16,
+          "intent": "rubber/PTFE seal rings"
+        },
+        "gasket_graphite": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.76,
+          "checkerScale": 18,
+          "intent": "graphite gasket and packing rings"
+        },
+        "fastener_zinc": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.85,
+          "checkerScale": 16,
+          "intent": "nuts and washers as repeated hardware"
+        },
+        "threaded_dark": {
+          "mode": "cylindrical",
+          "coordinate": "UV",
+          "projection": "TUBE",
+          "uvLayer": "UVMap",
+          "requireUv": true,
+          "scale": 0.85,
+          "checkerScale": 18,
+          "intent": "studs and screws with cylindrical continuity"
+        },
+        "spring_steel": {
+          "mode": "object-tube",
+          "coordinate": "Generated",
+          "projection": "TUBE",
+          "scale": 0.75,
+          "checkerScale": 18,
+          "intent": "spring procedural mapping, no UV gate"
+        }
+      }
+    },
+    "meshUvCoverage": {
+      "meshObjects": 142,
+      "meshWithUvLayers": 110,
+      "meshWithoutUvLayers": 32,
+      "uvCoverageRatio": 0.774648,
+      "sample": [
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.001",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.002",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.003",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.004",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.005",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X55-N",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X55-N.001",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X55-N.002",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X55-N.003",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.001",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.002",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.003",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.004",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.005",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.006",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.007",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.008",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.009",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.010",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.011",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.012",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        },
+        {
+          "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.013",
+          "uvLayerCount": 1,
+          "uvLayerNames": [
+            "UVMap"
+          ]
+        }
+      ]
+    },
+    "uvRequirementGate": {
+      "schema": "ztovalve-render-uv-gate-audit/v1",
+      "status": "pass",
+      "requiredRoleObjectMissingUvCount": 0,
+      "missingRequiredUvSample": [],
+      "roles": {
+        "bearing_surface": {
+          "objectCount": 4,
+          "withUvObjectCount": 4,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-bearing-cylindrical": 4
+          },
+          "sample": [
+            {
+              "ordinal": 25,
+              "objectName": "固定轴轴承",
+              "productName": "固定轴轴承",
+              "nodeIndex": 25,
+              "sourceNodeIndex": 25,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 39,
+              "objectName": "止推垫",
+              "productName": "止推垫",
+              "nodeIndex": 39,
+              "sourceNodeIndex": 39,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 43,
+              "objectName": "阀杆轴承",
+              "productName": "阀杆轴承",
+              "nodeIndex": 42,
+              "sourceNodeIndex": 42,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 44,
+              "objectName": "球体轴承",
+              "productName": "球体轴承",
+              "nodeIndex": 43,
+              "sourceNodeIndex": 43,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "body_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-body-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 0,
+              "objectName": "阀体_cast_shell",
+              "productName": "阀体",
+              "nodeIndex": 1,
+              "sourceNodeIndex": 1,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "body_flange_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-body-flange-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 1,
+              "objectName": "阀体_flange_machined_faces",
+              "productName": "阀体",
+              "nodeIndex": 1,
+              "sourceNodeIndex": 1,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "bracket_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-bracket-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 110,
+              "objectName": "支架_cast_shell",
+              "productName": "支架",
+              "nodeIndex": 108,
+              "sourceNodeIndex": 108,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "bracket_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-bracket-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 111,
+              "objectName": "支架_machined_faces",
+              "productName": "支架",
+              "nodeIndex": 108,
+              "sourceNodeIndex": 108,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "cover_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-cover-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 64,
+              "objectName": "阀盖_cast_shell",
+              "productName": "阀盖",
+              "nodeIndex": 63,
+              "sourceNodeIndex": 63,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "cover_flange_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-cover-flange-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 65,
+              "objectName": "阀盖_flange_machined_faces",
+              "productName": "阀盖",
+              "nodeIndex": 63,
+              "sourceNodeIndex": 63,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "fastener_zinc": {
+          "objectCount": 38,
+          "withUvObjectCount": 38,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-fastener-cylindrical": 38
+          },
+          "sample": [
+            {
+              "ordinal": 27,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 27,
+              "sourceNodeIndex": 27,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 28,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.001",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 28,
+              "sourceNodeIndex": 28,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 29,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.002",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 29,
+              "sourceNodeIndex": 29,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 30,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.003",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 30,
+              "sourceNodeIndex": 30,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 31,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.004",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 31,
+              "sourceNodeIndex": 31,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 32,
+              "objectName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N.005",
+              "productName": "hex nuts, style 2-grades ab gb_GB_HEXAGON_TYPE13 M10 Normal Style-N",
+              "nodeIndex": 32,
+              "sourceNodeIndex": 32,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "gasket_graphite": {
+          "objectCount": 6,
+          "withUvObjectCount": 6,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-graphite-ring": 6
+          },
+          "sample": [
+            {
+              "ordinal": 5,
+              "objectName": "阀座盘根",
+              "productName": "阀座盘根",
+              "nodeIndex": 5,
+              "sourceNodeIndex": 5,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 24,
+              "objectName": "固定轴垫片",
+              "productName": "固定轴垫片",
+              "nodeIndex": 24,
+              "sourceNodeIndex": 24,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 42,
+              "objectName": "填料箱垫片",
+              "productName": "填料箱垫片",
+              "nodeIndex": 41,
+              "sourceNodeIndex": 41,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 45,
+              "objectName": "填料",
+              "productName": "填料",
+              "nodeIndex": 44,
+              "sourceNodeIndex": 44,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 66,
+              "objectName": "中道垫片",
+              "productName": "中道垫片",
+              "nodeIndex": 64,
+              "sourceNodeIndex": 64,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 140,
+              "objectName": "排污阀垫片",
+              "productName": "排污阀垫片",
+              "nodeIndex": 137,
+              "sourceNodeIndex": 137,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "machined_surface": {
+          "objectCount": 7,
+          "withUvObjectCount": 7,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-machined-planar": 7
+          },
+          "sample": [
+            {
+              "ordinal": 4,
+              "objectName": "阀座压圈",
+              "productName": "阀座压圈",
+              "nodeIndex": 4,
+              "sourceNodeIndex": 4,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 6,
+              "objectName": "阀座",
+              "productName": "阀座",
+              "nodeIndex": 6,
+              "sourceNodeIndex": 6,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 54,
+              "objectName": "填料压圈",
+              "productName": "填料压圈",
+              "nodeIndex": 53,
+              "sourceNodeIndex": 53,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 55,
+              "objectName": "填料压盖",
+              "productName": "填料压盖",
+              "nodeIndex": 54,
+              "sourceNodeIndex": 54,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 67,
+              "objectName": "阀座.001",
+              "productName": "阀座",
+              "nodeIndex": 65,
+              "sourceNodeIndex": 65,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 68,
+              "objectName": "阀座压圈.001",
+              "productName": "阀座压圈",
+              "nodeIndex": 66,
+              "sourceNodeIndex": 66,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "packing_box_cast_shell": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-packing-box-cast-shell": 1
+          },
+          "sample": [
+            {
+              "ordinal": 40,
+              "objectName": "填料箱_cast_shell",
+              "productName": "填料箱",
+              "nodeIndex": 40,
+              "sourceNodeIndex": 40,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "packing_box_machined_faces": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-packing-box-machined": 1
+          },
+          "sample": [
+            {
+              "ordinal": 41,
+              "objectName": "填料箱_machined_faces",
+              "productName": "填料箱",
+              "nodeIndex": 40,
+              "sourceNodeIndex": 40,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "polished_ball": {
+          "objectCount": 1,
+          "withUvObjectCount": 1,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-polished-ball-spherical": 1
+          },
+          "sample": [
+            {
+              "ordinal": 22,
+              "objectName": "球体",
+              "productName": "球体",
+              "nodeIndex": 22,
+              "sourceNodeIndex": 22,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "precision_machined": {
+          "objectCount": 6,
+          "withUvObjectCount": 6,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-precision-cylindrical": 6
+          },
+          "sample": [
+            {
+              "ordinal": 23,
+              "objectName": "固定轴",
+              "productName": "固定轴",
+              "nodeIndex": 23,
+              "sourceNodeIndex": 23,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 38,
+              "objectName": "阀杆",
+              "productName": "阀杆",
+              "nodeIndex": 38,
+              "sourceNodeIndex": 38,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 112,
+              "objectName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "productName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "nodeIndex": 109,
+              "sourceNodeIndex": 109,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 113,
+              "objectName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26.001",
+              "productName": "parallel pins hardening steel gb_GB_CONNECTING_PIECE_PIN_DP 12X26",
+              "nodeIndex": 110,
+              "sourceNodeIndex": 110,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 138,
+              "objectName": "连接轴",
+              "productName": "连接轴",
+              "nodeIndex": 135,
+              "sourceNodeIndex": 135,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 139,
+              "objectName": "平键",
+              "productName": "平键",
+              "nodeIndex": 136,
+              "sourceNodeIndex": 136,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "soft_seal": {
+          "objectCount": 2,
+          "withUvObjectCount": 2,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-seal-cylindrical": 2
+          },
+          "sample": [
+            {
+              "ordinal": 3,
+              "objectName": "阀座密封圈",
+              "productName": "阀座密封圈",
+              "nodeIndex": 3,
+              "sourceNodeIndex": 3,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 69,
+              "objectName": "阀座密封圈.001",
+              "productName": "阀座密封圈",
+              "nodeIndex": 67,
+              "sourceNodeIndex": 67,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        },
+        "spring_steel": {
+          "objectCount": 32,
+          "withUvObjectCount": 0,
+          "missingUvObjectCount": 32,
+          "requireUv": false,
+          "uvLayer": null,
+          "coordinate": "Generated",
+          "uvFamilyCounts": {
+            "issue8-spring-procedural": 32
+          },
+          "sample": [
+            {
+              "ordinal": 2,
+              "objectName": "弹簧",
+              "productName": "弹簧",
+              "nodeIndex": 2,
+              "sourceNodeIndex": 2,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 7,
+              "objectName": "弹簧.001",
+              "productName": "弹簧",
+              "nodeIndex": 7,
+              "sourceNodeIndex": 7,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 8,
+              "objectName": "弹簧.002",
+              "productName": "弹簧",
+              "nodeIndex": 8,
+              "sourceNodeIndex": 8,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 9,
+              "objectName": "弹簧.003",
+              "productName": "弹簧",
+              "nodeIndex": 9,
+              "sourceNodeIndex": 9,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 10,
+              "objectName": "弹簧.004",
+              "productName": "弹簧",
+              "nodeIndex": 10,
+              "sourceNodeIndex": 10,
+              "uvLayerNames": [],
+              "uvRequired": false
+            },
+            {
+              "ordinal": 11,
+              "objectName": "弹簧.005",
+              "productName": "弹簧",
+              "nodeIndex": 11,
+              "sourceNodeIndex": 11,
+              "uvLayerNames": [],
+              "uvRequired": false
+            }
+          ],
+          "missingSample": []
+        },
+        "threaded_dark": {
+          "objectCount": 38,
+          "withUvObjectCount": 38,
+          "missingUvObjectCount": 0,
+          "requireUv": true,
+          "uvLayer": "UVMap",
+          "coordinate": "UV",
+          "uvFamilyCounts": {
+            "issue8-threaded-cylindrical": 38
+          },
+          "sample": [
+            {
+              "ordinal": 26,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 26,
+              "sourceNodeIndex": 26,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 33,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.001",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 33,
+              "sourceNodeIndex": 33,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 34,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.002",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 34,
+              "sourceNodeIndex": 34,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 35,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.003",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 35,
+              "sourceNodeIndex": 35,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 36,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.004",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 36,
+              "sourceNodeIndex": 36,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            },
+            {
+              "ordinal": 37,
+              "objectName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N.005",
+              "productName": "double end stud (clamping type)grade b gb-2_GB_FASTENER_BOLT_DESB M10X45-N",
+              "nodeIndex": 37,
+              "sourceNodeIndex": 37,
+              "uvLayerNames": [
+                "UVMap"
+              ],
+              "uvRequired": true
+            }
+          ],
+          "missingSample": []
+        }
+      }
+    },
+    "assignedRoleMappings": [
+      {
+        "material": "fixed_ball_valve_hero_threaded_dark",
+        "roleKey": "threaded_dark",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "studs and screws with cylindrical continuity",
+        "imageProjections": [
+          {
+            "map": "base_color",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          },
+          {
+            "map": "ao",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          },
+          {
+            "map": "metallic",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          },
+          {
+            "map": "roughness",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          },
+          {
+            "map": "height",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          },
+          {
+            "map": "normal",
+            "requestedProjection": "TUBE",
+            "appliedProjection": "TUBE",
+            "projectionError": null
+          }
+        ],
+        "coordinate": "UV",
+        "requestedCoordinate": "UV",
+        "scale": 0.85,
+        "projection": "TUBE",
+        "blend": null
+      },
+      {
+        "material": "fixed_ball_valve_hero_bearing_surface",
+        "roleKey": "bearing_surface",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "bearing-like cylindrical parts",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_body_cast_shell",
+        "roleKey": "body_cast_shell",
+        "mode": "box",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "large cast shell projection",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_body_flange_machined_faces",
+        "roleKey": "body_flange_machined_faces",
+        "mode": "uv-planar",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "split valve-body machined faces",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_bracket_cast_shell",
+        "roleKey": "bracket_cast_shell",
+        "mode": "box",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "bracket cast shell projection",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_bracket_machined_faces",
+        "roleKey": "bracket_machined_faces",
+        "mode": "uv-planar",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "bracket installation and contact faces",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_cover_cast_shell",
+        "roleKey": "cover_cast_shell",
+        "mode": "box",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "cover cast shell projection",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_cover_flange_machined_faces",
+        "roleKey": "cover_flange_machined_faces",
+        "mode": "uv-planar",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "split cover machined faces",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_fastener_zinc",
+        "roleKey": "fastener_zinc",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "nuts and washers as repeated hardware",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_gasket_graphite",
+        "roleKey": "gasket_graphite",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "graphite gasket and packing rings",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_machined_surface",
+        "roleKey": "machined_surface",
+        "mode": "uv-planar",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "general machined seats and rings",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_packing_box_cast_shell",
+        "roleKey": "packing_box_cast_shell",
+        "mode": "box",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "packing box shell projection",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_packing_box_machined_faces",
+        "roleKey": "packing_box_machined_faces",
+        "mode": "uv-planar",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "packing box machined faces",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_polished_ball",
+        "roleKey": "polished_ball",
+        "mode": "spherical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "spherical valve ball",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_precision_machined",
+        "roleKey": "precision_machined",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "shafts, pins, keys and precision connectors",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_soft_seal",
+        "roleKey": "soft_seal",
+        "mode": "cylindrical",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "rubber/PTFE seal rings",
+        "imageProjections": []
+      },
+      {
+        "material": "fixed_ball_valve_hero_spring_steel",
+        "roleKey": "spring_steel",
+        "mode": "object-tube",
+        "diagnosticMode": "texture-only",
+        "mappingIntent": "spring procedural mapping, no UV gate",
+        "imageProjections": []
+      }
+    ],
+    "unusedRoleMappingCount": 13
+  },
+  "textureAudit": [
+    {
+      "material": "fixed_ball_valve_hero_threaded_dark",
+      "roleKey": "threaded_dark",
+      "source": "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+      "assetId": "issue8-substance-style-threaded_dark-v1",
+      "sourceUrl": "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+      "license": "CC0-1.0 project-generated procedural test texture",
+      "loadedMaps": [
+        {
+          "map": "base_color",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_baseColor.png",
+          "sha256": "d8f888cecc87f24b299688b056775fc51c921c372ba7853aefa27dada55f8d0e",
+          "fileSizeBytes": 190855,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "sRGB",
+          "node": "zt_texture_base_color"
+        },
+        {
+          "map": "ao",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_ao.png",
+          "sha256": "8dd8c44bc3b56a4004dc43943dffa4afe08f005a7c67ce17c428e5081c440d6d",
+          "fileSizeBytes": 33246,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "Non-Color",
+          "node": "zt_texture_ao"
+        },
+        {
+          "map": "metallic",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_metallic.png",
+          "sha256": "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+          "fileSizeBytes": 3157,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "Non-Color",
+          "node": "zt_texture_metallic"
+        },
+        {
+          "map": "roughness",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_roughness.png",
+          "sha256": "01c5edd1b48994706b9c9f5c77cfa4baad5950ff9fc01e82bbe43e1bce047922",
+          "fileSizeBytes": 47986,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "Non-Color",
+          "node": "zt_texture_roughness"
+        },
+        {
+          "map": "height",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_height.png",
+          "sha256": "afda3806094f32058d7c5b64470f9c1f011ce046e473f4ffdf7069fafb815d69",
+          "fileSizeBytes": 111790,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "Non-Color",
+          "node": "zt_texture_height"
+        },
+        {
+          "map": "normal",
+          "path": ".scratch/issues/issue8/material-jobs/threaded_dark/textures/threaded_dark_normal.png",
+          "sha256": "56817e3f6e6a12afaa611f662323eff0200daf838daec77a64ef9e620ed3bb2d",
+          "fileSizeBytes": 251361,
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "colorSpace": "Non-Color",
+          "node": "zt_texture_normal"
+        }
+      ],
+      "missingMaps": []
+    }
+  ],
+  "normalAudit": {
+    "objects": 142,
+    "customNormalsCleared": 142,
+    "faces": 258345,
+    "edges": 392431,
+    "angleDegrees": 40.0,
+    "mergeDistance": 0.00035
+  },
+  "bounds": {
+    "min": [
+      -0.258808,
+      -0.40841,
+      -0.148342
+    ],
+    "max": [
+      -0.07718,
+      -0.16259,
+      0.216158
+    ],
+    "center": [
+      -0.167994,
+      -0.2855,
+      0.033908
+    ],
+    "extent": [
+      0.181628,
+      0.24582,
+      0.3645
+    ],
+    "radius": 0.3645
+  },
+  "lighting": [
+    {
+      "name": "broad_key",
+      "role": "large softbox",
+      "energy": 225.0,
+      "shape": "RECTANGLE",
+      "size": 0.95,
+      "sizeY": 2.85,
+      "softSize": 0.5,
+      "targetOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rayVisibility": {},
+      "location": [
+        -1.86799,
+        -0.8775,
+        1.23391
+      ]
+    },
+    {
+      "name": "controlled_right_rim",
+      "role": "metal edge rim",
+      "energy": 252.0,
+      "shape": "RECTANGLE",
+      "size": 0.82,
+      "sizeY": 2.05,
+      "softSize": 0.5,
+      "targetOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rayVisibility": {},
+      "location": [
+        0.99201,
+        -1.3055,
+        0.60191
+      ]
+    },
+    {
+      "name": "top_softbox",
+      "role": "machined top lift",
+      "energy": 32.0,
+      "shape": "RECTANGLE",
+      "size": 2.8,
+      "sizeY": 1.05,
+      "softSize": 0.5,
+      "targetOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rayVisibility": {},
+      "location": [
+        -0.20799,
+        -0.5735,
+        1.61391
+      ]
+    },
+    {
+      "name": "front_low_lift",
+      "role": "low fill",
+      "energy": 68.0,
+      "shape": "RECTANGLE",
+      "size": 7.2,
+      "sizeY": 2.45,
+      "softSize": 0.5,
+      "targetOffset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rayVisibility": {},
+      "location": [
+        -0.26399,
+        -1.5975,
+        0.23391
+      ]
+    }
+  ],
+  "contactShadow": {
+    "z": -0.16034,
+    "radius": 0.42,
+    "opacity": 0.14
+  },
+  "outputs": {
+    "stagingDir": ".scratch/issues/issue8/renders/material-jobs-substance-v1/threaded_dark/texture-only",
+    "framesDir": ".scratch/issues/issue8/renders/material-jobs-substance-v1/threaded_dark/texture-only/frames",
+    "manifest": ".scratch/issues/issue8/renders/material-jobs-substance-v1/threaded_dark/texture-only/manifest.json"
+  },
+  "frames": [
+    {
+      "frameIndex": 120,
+      "publicFrameNumber": 121,
+      "progress": 0.502092,
+      "stage": "fixed-ball-valve-hero",
+      "path": ".scratch/issues/issue8/renders/material-jobs-substance-v1/threaded_dark/texture-only/frames/0120.png",
+      "bytes": 221755,
+      "sha256": "2be2ed8cae5302dd24a2e2c2b2498ed87ed37be8fb7429de689109a00e43856f",
+      "motion": {
+        "movedObjectCount": 142,
+        "maxOffsetMeters": 0.18764,
+        "yawDegrees": 9.0,
+        "assembly": 1.0,
+        "explosion": 0.0,
+        "quarterTurn": 0.0,
+        "quarterTurnDegrees": 0.0,
+        "sectionOpacity": 1.0
+      },
+      "camera": {
+        "location": [
+          1.65271,
+          1.35387,
+          0.27391
+        ],
+        "target": [
+          -0.16799,
+          -0.2855,
+          0.03391
+        ],
+        "orthoScale": 0.856575,
+        "isolateOrthoOverride": true
+      }
+    }
+  ],
+  "durationSeconds": 15.69
+}

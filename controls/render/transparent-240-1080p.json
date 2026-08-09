@@ -1,0 +1,13 @@
+{
+    "schema":  "ztovalve-render-control/v1",
+    "name":  "transparent-240-1080p",
+    "sequence":  {
+                     "frameCount":  240,
+                     "width":  1920,
+                     "height":  1080,
+                     "samples":  48
+                 },
+    "output":  {
+                   "defaultOutDir":  "renders/fixed-ball-valve-hero-transparent-1080p"
+               }
+}

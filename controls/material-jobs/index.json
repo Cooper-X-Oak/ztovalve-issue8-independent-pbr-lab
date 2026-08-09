@@ -1,0 +1,160 @@
+{
+    "schema":  "ztovalve-independent-pbr-material-job-index/v1",
+    "roleCount":  17,
+    "authoritativeSource":  "material-jobs/\u003crole\u003e/pbr-job-manifest.json",
+    "jobs":  [
+                 {
+                     "role":  "bearing_surface",
+                     "job":  "controls/material-jobs/bearing_surface.json",
+                     "pbrJobManifest":  "material-jobs/bearing_surface/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/bearing_surface/material-control.json",
+                     "textureRoot":  "material-jobs/bearing_surface/textures",
+                     "objectCount":  4,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "body_cast_shell",
+                     "job":  "controls/material-jobs/body_cast_shell.json",
+                     "pbrJobManifest":  "material-jobs/body_cast_shell/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/body_cast_shell/material-control.json",
+                     "textureRoot":  "material-jobs/body_cast_shell/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "body_flange_machined_faces",
+                     "job":  "controls/material-jobs/body_flange_machined_faces.json",
+                     "pbrJobManifest":  "material-jobs/body_flange_machined_faces/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/body_flange_machined_faces/material-control.json",
+                     "textureRoot":  "material-jobs/body_flange_machined_faces/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "bracket_cast_shell",
+                     "job":  "controls/material-jobs/bracket_cast_shell.json",
+                     "pbrJobManifest":  "material-jobs/bracket_cast_shell/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/bracket_cast_shell/material-control.json",
+                     "textureRoot":  "material-jobs/bracket_cast_shell/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "bracket_machined_faces",
+                     "job":  "controls/material-jobs/bracket_machined_faces.json",
+                     "pbrJobManifest":  "material-jobs/bracket_machined_faces/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/bracket_machined_faces/material-control.json",
+                     "textureRoot":  "material-jobs/bracket_machined_faces/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "cover_cast_shell",
+                     "job":  "controls/material-jobs/cover_cast_shell.json",
+                     "pbrJobManifest":  "material-jobs/cover_cast_shell/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/cover_cast_shell/material-control.json",
+                     "textureRoot":  "material-jobs/cover_cast_shell/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "cover_flange_machined_faces",
+                     "job":  "controls/material-jobs/cover_flange_machined_faces.json",
+                     "pbrJobManifest":  "material-jobs/cover_flange_machined_faces/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/cover_flange_machined_faces/material-control.json",
+                     "textureRoot":  "material-jobs/cover_flange_machined_faces/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "fastener_zinc",
+                     "job":  "controls/material-jobs/fastener_zinc.json",
+                     "pbrJobManifest":  "material-jobs/fastener_zinc/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/fastener_zinc/material-control.json",
+                     "textureRoot":  "material-jobs/fastener_zinc/textures",
+                     "objectCount":  38,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "gasket_graphite",
+                     "job":  "controls/material-jobs/gasket_graphite.json",
+                     "pbrJobManifest":  "material-jobs/gasket_graphite/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/gasket_graphite/material-control.json",
+                     "textureRoot":  "material-jobs/gasket_graphite/textures",
+                     "objectCount":  6,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "machined_surface",
+                     "job":  "controls/material-jobs/machined_surface.json",
+                     "pbrJobManifest":  "material-jobs/machined_surface/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/machined_surface/material-control.json",
+                     "textureRoot":  "material-jobs/machined_surface/textures",
+                     "objectCount":  7,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "packing_box_cast_shell",
+                     "job":  "controls/material-jobs/packing_box_cast_shell.json",
+                     "pbrJobManifest":  "material-jobs/packing_box_cast_shell/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/packing_box_cast_shell/material-control.json",
+                     "textureRoot":  "material-jobs/packing_box_cast_shell/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "packing_box_machined_faces",
+                     "job":  "controls/material-jobs/packing_box_machined_faces.json",
+                     "pbrJobManifest":  "material-jobs/packing_box_machined_faces/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/packing_box_machined_faces/material-control.json",
+                     "textureRoot":  "material-jobs/packing_box_machined_faces/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "polished_ball",
+                     "job":  "controls/material-jobs/polished_ball.json",
+                     "pbrJobManifest":  "material-jobs/polished_ball/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/polished_ball/material-control.json",
+                     "textureRoot":  "material-jobs/polished_ball/textures",
+                     "objectCount":  1,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "precision_machined",
+                     "job":  "controls/material-jobs/precision_machined.json",
+                     "pbrJobManifest":  "material-jobs/precision_machined/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/precision_machined/material-control.json",
+                     "textureRoot":  "material-jobs/precision_machined/textures",
+                     "objectCount":  6,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "soft_seal",
+                     "job":  "controls/material-jobs/soft_seal.json",
+                     "pbrJobManifest":  "material-jobs/soft_seal/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/soft_seal/material-control.json",
+                     "textureRoot":  "material-jobs/soft_seal/textures",
+                     "objectCount":  2,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "spring_steel",
+                     "job":  "controls/material-jobs/spring_steel.json",
+                     "pbrJobManifest":  "material-jobs/spring_steel/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/spring_steel/material-control.json",
+                     "textureRoot":  "material-jobs/spring_steel/textures",
+                     "objectCount":  32,
+                     "mapCount":  8
+                 },
+                 {
+                     "role":  "threaded_dark",
+                     "job":  "controls/material-jobs/threaded_dark.json",
+                     "pbrJobManifest":  "material-jobs/threaded_dark/pbr-job-manifest.json",
+                     "materialControl":  "material-jobs/threaded_dark/material-control.json",
+                     "textureRoot":  "material-jobs/threaded_dark/textures",
+                     "objectCount":  38,
+                     "mapCount":  8
+                 }
+             ]
+}

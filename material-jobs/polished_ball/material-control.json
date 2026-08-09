@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-polished_ball",
+    "generatedAt":  "2026-08-08T07:54:43.495094+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "polished_ball":  {
+                                            "baseColor":  [
+                                                              0.8235294117647058,
+                                                              0.8313725490196079,
+                                                              0.8196078431372549
+                                                          ],
+                                            "metallic":  1.0,
+                                            "roughness":  0.095,
+                                            "specular":  0.5,
+                                            "normalStrength":  0.008,
+                                            "aniso":  0.08,
+                                            "textureSet":  {
+                                                               "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                               "assetId":  "issue8-substance-style-polished_ball-v1",
+                                                               "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                               "license":  "CC0-1.0 project-generated procedural test texture",
+                                                               "role":  "polished_ball",
+                                                               "materialFamily":  "polished metal ball",
+                                                               "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                               "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                               "baseColor":  "material-jobs/polished_ball/textures/polished_ball_baseColor.png",
+                                                               "normal":  "material-jobs/polished_ball/textures/polished_ball_normal.png",
+                                                               "metallic":  "material-jobs/polished_ball/textures/polished_ball_metallic.png",
+                                                               "roughness":  "material-jobs/polished_ball/textures/polished_ball_roughness.png",
+                                                               "height":  "material-jobs/polished_ball/textures/polished_ball_height.png",
+                                                               "ao":  "material-jobs/polished_ball/textures/polished_ball_ao.png",
+                                                               "metallicRoughness":  "material-jobs/polished_ball/textures/polished_ball_metallicRoughness.png",
+                                                               "ORM":  "material-jobs/polished_ball/textures/polished_ball_ORM.png",
+                                                               "scale":  1.0,
+                                                               "baseColorStrength":  0.06,
+                                                               "roughnessStrength":  0.18,
+                                                               "metallicStrength":  1.0,
+                                                               "normalStrength":  0.008,
+                                                               "heightStrength":  0.0,
+                                                               "heightDistance":  0.0,
+                                                               "aoStrength":  0.0
+                                                           }
+                                        }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "polished_ball",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/polished_ball"
+                    },
+    "defaultsTouched":  false
+}

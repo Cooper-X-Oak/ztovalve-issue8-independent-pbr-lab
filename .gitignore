@@ -1,0 +1,8 @@
+renders/
+.scratch/
+node_modules/
+viewer/node_modules/
+__pycache__/
+*.blend1
+*.tmp
+*.log

@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:59:01.106155+00:00",
+    "role":  "bracket_cast_shell",
+    "objectCount":  1,
+    "surfaceTarget":  "bracket cast shell, fine industrial gray metal; independent scale and bump",
+    "visualTarget":  "bracket cast shell; fine gray industrial metal",
+    "materialFamily":  "bracket cast metal",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_baseColor.png",
+                                         "sha256":  "f17beaf16467afe80e3559902ed7119ce8325598d1077810dc34b36beaf832a7",
+                                         "bytes":  298777,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_normal.png",
+                                      "sha256":  "7129153ca45f0474fe5cf73ba950738aa91e1df34a91f48cddedb3706e4cd0eb",
+                                      "bytes":  1758772,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_roughness.png",
+                                         "sha256":  "a85b602f1b00b23d5141d6b404fb75a841cf23d8b0445439b36451e5273f5470",
+                                         "bytes":  340848,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_height.png",
+                                      "sha256":  "b5a16a8c443293c5d8022371618eccd4fda0cf960f60c4c6d923cba82de26b48",
+                                      "bytes":  702563,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_ao.png",
+                                  "sha256":  "1833841d303077ca3fa7d1e9c91b6d96fad8772f3b63ccf376076115ffe9bb54",
+                                  "bytes":  225741,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_metallicRoughness.png",
+                                                 "sha256":  "d7cae6408527b6f2850b1d28bc8e8b1add5c008e67100a8b67d84ab19ede7564",
+                                                 "bytes":  431783,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/bracket_cast_shell/textures/bracket_cast_shell_ORM.png",
+                                   "sha256":  "e1f328c2fe76fb4ca3bbdb9b67e5dc09261301acb77e258590e1896444eb2705",
+                                   "bytes":  670113,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/bracket_cast_shell/material-control.json",
+                            "sha256":  "b046f82fc92f85bf204f45c23fa20cd600fe16c68fedae56dc73a6befbb511b9"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/bracket_cast_shell/render-stack.json",
+                        "sha256":  "649d576fca6fb69e81d8b35b8b072bdc3fd6bb9f5ba2c68fa18abee55356f10e"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

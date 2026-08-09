@@ -1,0 +1,135 @@
+{
+    "schema":  "ztovalve-issue8-single-role-substance-pbr-job/v1",
+    "kind":  "single_role_substance_style_pbr_job",
+    "status":  "generated-pending-render-validation",
+    "generatedAt":  "2026-08-08T07:59:39.870516+00:00",
+    "role":  "precision_machined",
+    "objectCount":  6,
+    "surfaceTarget":  "shafts, pins, keys and precision connectors; smooth directional metal",
+    "visualTarget":  "shafts, pins, keys and connectors; smooth directional metal",
+    "materialFamily":  "precision machined metal",
+    "skillInvocation":  {
+                            "primary":  "substance-3d-texturing",
+                            "supporting":  [
+                                               "industrial-texture-materials",
+                                               "industrial-bake-lookdev"
+                                           ],
+                            "mode":  "single-role-only",
+                            "substanceApplicationDetected":  false,
+                            "substanceStyleRulesApplied":  [
+                                                               "metallic/roughness PBR workflow",
+                                                               "baseColor authored without baked lighting",
+                                                               "OpenGL tangent-space normal map",
+                                                               "metallicRoughness packed map with green=roughness and blue=metallic",
+                                                               "ORM packed map with red=AO, green=roughness, blue=metallic",
+                                                               "baseColor=sRGB; data maps=Non-Color"
+                                                           ]
+                        },
+    "sourceAuthority":  {
+                            "jobs":  {
+                                         "path":  "controls/materials/per-role-independent-pbr-jobs.json",
+                                         "sha256":  "33073ecfae0a77b942a64183fbb071f94a269949b299ad625981bdab36c3f582"
+                                     },
+                            "nodeMap":  {
+                                            "path":  "assets-manifest/node-map.json",
+                                            "sha256":  "a8b681f5bafaa30bc80d67e55dfd482e4cdfb2aed7c71b2fb4e9f38d9b52fa5c"
+                                        }
+                        },
+    "textureSet":  {
+                       "baseColor":  {
+                                         "path":  "material-jobs/precision_machined/textures/precision_machined_baseColor.png",
+                                         "sha256":  "3b3c8f6afe9ec34095e90edfc6bfbac368eed92b08d039798b11bbae7ae9f909",
+                                         "bytes":  135040,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "sRGB"
+                                     },
+                       "normal":  {
+                                      "path":  "material-jobs/precision_machined/textures/precision_machined_normal.png",
+                                      "sha256":  "131c099c0b1dfca95defd86f2b36d44e7d94073f629c79aacbcc80e040572110",
+                                      "bytes":  29911,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "metallic":  {
+                                        "path":  "material-jobs/precision_machined/textures/precision_machined_metallic.png",
+                                        "sha256":  "92d103ae3b35360d5c817ca0287ddaf222ce4889a230003c99128f0c56eef900",
+                                        "bytes":  3157,
+                                        "dimensions":  [
+                                                           1024,
+                                                           1024
+                                                       ],
+                                        "colorSpace":  "Non-Color"
+                                    },
+                       "roughness":  {
+                                         "path":  "material-jobs/precision_machined/textures/precision_machined_roughness.png",
+                                         "sha256":  "467a7dbe0b4c5879e099f7532ca56f1f8ac359ee50522d1057c6b5a7661ee638",
+                                         "bytes":  6568,
+                                         "dimensions":  [
+                                                            1024,
+                                                            1024
+                                                        ],
+                                         "colorSpace":  "Non-Color"
+                                     },
+                       "height":  {
+                                      "path":  "material-jobs/precision_machined/textures/precision_machined_height.png",
+                                      "sha256":  "c4e20e162a5bfb94ae6ad71715b3817adbd673c6eaebcdd2a65411e6af55b922",
+                                      "bytes":  18474,
+                                      "dimensions":  [
+                                                         1024,
+                                                         1024
+                                                     ],
+                                      "colorSpace":  "Non-Color"
+                                  },
+                       "ao":  {
+                                  "path":  "material-jobs/precision_machined/textures/precision_machined_ao.png",
+                                  "sha256":  "0b5a983c642990f014a16e23c395575917098918bf33c5ac706a964bdb246795",
+                                  "bytes":  6557,
+                                  "dimensions":  [
+                                                     1024,
+                                                     1024
+                                                 ],
+                                  "colorSpace":  "Non-Color"
+                              },
+                       "metallicRoughness":  {
+                                                 "path":  "material-jobs/precision_machined/textures/precision_machined_metallicRoughness.png",
+                                                 "sha256":  "e9fd9938937f05434363f99ba443fa1d547b2dbbb868b539f4fa96fc1d40bad0",
+                                                 "bytes":  9029,
+                                                 "dimensions":  [
+                                                                    1024,
+                                                                    1024
+                                                                ],
+                                                 "colorSpace":  "Non-Color"
+                                             },
+                       "ORM":  {
+                                   "path":  "material-jobs/precision_machined/textures/precision_machined_ORM.png",
+                                   "sha256":  "03ebba01b99ee951ec318395a0e0dfd139d5082d8444ee02825e33ad573df6b1",
+                                   "bytes":  10760,
+                                   "dimensions":  [
+                                                      1024,
+                                                      1024
+                                                  ],
+                                   "colorSpace":  "Non-Color"
+                               }
+                   },
+    "materialControl":  {
+                            "path":  "material-jobs/precision_machined/material-control.json",
+                            "sha256":  "2d02f357a71c43acde3bff1686849a104a9a398d9c648ff10767bf1b7c77852b"
+                        },
+    "renderStack":  {
+                        "path":  "material-jobs/precision_machined/render-stack.json",
+                        "sha256":  "747e55d527937d996de0e431bfc22aff0803450cb7ac6f8ba2ac2382ef854a34"
+                    },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "assemblyRenderAllowedBeforeAllRolesPass":  false,
+                        "priorIssueTextureAssetsReused":  false
+                    },
+    "defaultsTouched":  false
+}

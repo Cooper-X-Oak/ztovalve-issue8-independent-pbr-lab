@@ -1,0 +1,96 @@
+{
+    "schema":  "ztovalve-part-roles-control/v1",
+    "kind":  "part_roles_control",
+    "name":  "issue8-step-role-segmentation",
+    "intent":  "issue8 independent role segmentation from the copied STEP source and valve manufacturing role schema.",
+    "sourceAuthority":  {
+                            "step":  "assets/source/固定式球阀.STEP",
+                            "rawNodeMap":  "assets-manifest/node-map.json"
+                        },
+    "materialRoles":  {
+                          "groups":  {
+                                         "central-body-anchor":  "cast_body",
+                                         "end-caps-covers":  "cast_cover",
+                                         "ball-trunnion-core":  "precision_machined",
+                                         "seat-seal-system":  "machined_surface",
+                                         "stem-packing-stack":  "machined_surface",
+                                         "top-bracket-connector":  "bracket_cast",
+                                         "top-bracket-fasteners":  "threaded_dark",
+                                         "fasteners-small-hardware":  "fastener_zinc",
+                                         "spring-group":  "spring_steel"
+                                     },
+                          "products":  {
+                                           "阀体":  "cast_body",
+                                           "阀盖":  "cast_cover",
+                                           "堵头":  "machined_surface",
+                                           "球体":  "polished_ball",
+                                           "固定轴":  "precision_machined",
+                                           "固定轴垫片":  "gasket_graphite",
+                                           "固定轴轴承":  "bearing_surface",
+                                           "球体轴承":  "bearing_surface",
+                                           "阀座":  "machined_surface",
+                                           "阀座压圈":  "machined_surface",
+                                           "阀座密封圈":  "soft_seal",
+                                           "阀座盘根":  "gasket_graphite",
+                                           "中道垫片":  "gasket_graphite",
+                                           "阀杆":  "precision_machined",
+                                           "止推垫":  "bearing_surface",
+                                           "填料箱":  "cast_cover",
+                                           "填料箱垫片":  "gasket_graphite",
+                                           "阀杆轴承":  "bearing_surface",
+                                           "填料":  "gasket_graphite",
+                                           "填料压圈":  "machined_surface",
+                                           "填料压盖":  "machined_surface",
+                                           "弹簧":  "spring_steel",
+                                           "支架":  "bracket_cast",
+                                           "连接轴":  "precision_machined",
+                                           "平键":  "precision_machined",
+                                           "排污阀垫片":  "gasket_graphite"
+                                       },
+                          "productContains":  [
+                                                  {
+                                                      "contains":  "密封圈",
+                                                      "role":  "soft_seal"
+                                                  },
+                                                  {
+                                                      "contains":  "盘根",
+                                                      "role":  "gasket_graphite"
+                                                  },
+                                                  {
+                                                      "contains":  "垫片",
+                                                      "role":  "gasket_graphite"
+                                                  },
+                                                  {
+                                                      "contains":  "washer",
+                                                      "role":  "fastener_zinc"
+                                                  },
+                                                  {
+                                                      "contains":  "hex nuts",
+                                                      "role":  "fastener_zinc"
+                                                  },
+                                                  {
+                                                      "contains":  "parallel pins",
+                                                      "role":  "precision_machined"
+                                                  },
+                                                  {
+                                                      "contains":  "stud",
+                                                      "role":  "threaded_dark"
+                                                  },
+                                                  {
+                                                      "contains":  "screw",
+                                                      "role":  "threaded_dark"
+                                                  },
+                                                  {
+                                                      "contains":  "螺柱",
+                                                      "role":  "threaded_dark"
+                                                  }
+                                              ],
+                          "fallback":  "dark_core"
+                      },
+    "issue8Rules":  {
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "materialWorkStartsAfterGrouping":  true,
+                        "eachMaterialRoleNeedsIndependentTextureEvidence":  true
+                    },
+    "defaultsTouched":  false
+}

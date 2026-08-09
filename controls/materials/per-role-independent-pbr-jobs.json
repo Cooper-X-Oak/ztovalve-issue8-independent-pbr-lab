@@ -1,0 +1,223 @@
+{
+    "schema":  "ztovalve-per-role-independent-pbr-jobs/v1",
+    "name":  "issue8-per-role-independent-pbr-jobs",
+    "status":  "migrated-independent-pbr",
+    "createdAfterUserReview":  true,
+    "wholeAssemblyTexturePassAllowed":  false,
+    "oneBatchGeneratesAllRolesAllowed":  false,
+    "assemblyRenderAllowedBeforeAllRolesPass":  false,
+    "requiredSkillChainPerRole":  [
+                                      "substance-3d-texturing",
+                                      "blender-visual-material-test",
+                                      "industrial-texture-materials",
+                                      "industrial-bake-lookdev",
+                                      "materials"
+                                  ],
+    "requiredEvidencePerRole":  [
+                                    "role_job_manifest",
+                                    "surface_target",
+                                    "material_source_or_generation_record",
+                                    "pbr_texture_set_manifest",
+                                    "texture_only_isolation_render",
+                                    "styled_isolation_render",
+                                    "visual_verdict",
+                                    "failure_notes_or_pass_reason"
+                                ],
+    "jobs":  [
+                 {
+                     "role":  "body_cast_shell",
+                     "objectCount":  1,
+                     "surfaceTarget":  "silver-gray cast valve body shell; controlled fine cast grain; no dark directional projection patch",
+                     "materialFamily":  "cast metal shell",
+                     "mustNotInheritFrom":  [
+                                                "polished_ball",
+                                                "soft_seal",
+                                                "gasket_graphite",
+                                                "threaded_dark"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "body_flange_machined_faces",
+                     "objectCount":  1,
+                     "surfaceTarget":  "clean machined flange/contact faces; lower roughness; subtle radial machining; visually distinct from cast shell",
+                     "materialFamily":  "machined metal face",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "polished_ball",
+                                                "soft_seal"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "cover_cast_shell",
+                     "objectCount":  1,
+                     "surfaceTarget":  "cast cover metal, related to body but independently tuned; no shared one-shot texture",
+                     "materialFamily":  "cast metal cover",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "polished_ball",
+                                                "soft_seal"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "cover_flange_machined_faces",
+                     "objectCount":  1,
+                     "surfaceTarget":  "machined cover faces with separate ring/contact marks",
+                     "materialFamily":  "machined metal face",
+                     "mustNotInheritFrom":  [
+                                                "cover_cast_shell",
+                                                "body_cast_shell"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "packing_box_cast_shell",
+                     "objectCount":  1,
+                     "surfaceTarget":  "small cast packing-box shell, independently scaled grain visible in close-up",
+                     "materialFamily":  "cast metal shell",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "packing_box_machined_faces",
+                     "objectCount":  1,
+                     "surfaceTarget":  "packing-box machined contact faces; separate from shell and readable in close-up",
+                     "materialFamily":  "machined metal face",
+                     "mustNotInheritFrom":  [
+                                                "packing_box_cast_shell"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "bracket_cast_shell",
+                     "objectCount":  1,
+                     "surfaceTarget":  "bracket cast shell, fine industrial gray metal; independent scale and bump",
+                     "materialFamily":  "cast bracket metal",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "bracket_machined_faces"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "bracket_machined_faces",
+                     "objectCount":  1,
+                     "surfaceTarget":  "bracket installation faces; flatter cleaner machining than bracket shell",
+                     "materialFamily":  "machined metal face",
+                     "mustNotInheritFrom":  [
+                                                "bracket_cast_shell"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "machined_surface",
+                     "objectCount":  7,
+                     "surfaceTarget":  "general machined rings and seats; lower roughness; precise circular tooling where appropriate",
+                     "materialFamily":  "machined metal",
+                     "mustNotInheritFrom":  [
+                                                "cast shell roles",
+                                                "polished_ball"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "bearing_surface",
+                     "objectCount":  4,
+                     "surfaceTarget":  "bearing surfaces, smooth metal with restrained directional marks; not rough cast",
+                     "materialFamily":  "bearing metal",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "threaded_dark"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "precision_machined",
+                     "objectCount":  6,
+                     "surfaceTarget":  "shafts, pins, keys and precision connectors; smooth directional metal",
+                     "materialFamily":  "precision metal",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "soft_seal"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "polished_ball",
+                     "objectCount":  1,
+                     "surfaceTarget":  "central ball; polished metal; low roughness; strong reflection; minimal bump; never cast-grain rough",
+                     "materialFamily":  "polished metal",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "machined_surface",
+                                                "threaded_dark"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "soft_seal",
+                     "objectCount":  2,
+                     "surfaceTarget":  "soft sealing rings; non-metal; high roughness; restrained bump; clear thin-ring visibility",
+                     "materialFamily":  "rubber or PTFE-like seal",
+                     "mustNotInheritFrom":  [
+                                                "metal roles"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "gasket_graphite",
+                     "objectCount":  6,
+                     "surfaceTarget":  "graphite/packing gaskets; dark fibrous matte material; non-metal",
+                     "materialFamily":  "graphite gasket",
+                     "mustNotInheritFrom":  [
+                                                "metal roles",
+                                                "soft_seal"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "fastener_zinc",
+                     "objectCount":  38,
+                     "surfaceTarget":  "zinc/steel fastener hardware; readable edges, small scratches, not cast grain",
+                     "materialFamily":  "zinc plated fastener metal",
+                     "mustNotInheritFrom":  [
+                                                "body_cast_shell",
+                                                "polished_ball"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "threaded_dark",
+                     "objectCount":  38,
+                     "surfaceTarget":  "dark threaded parts with cylindrical ridge detail; independent from bright fasteners",
+                     "materialFamily":  "dark threaded steel",
+                     "mustNotInheritFrom":  [
+                                                "fastener_zinc",
+                                                "body_cast_shell",
+                                                "polished_ball"
+                                            ],
+                     "status":  "pending"
+                 },
+                 {
+                     "role":  "spring_steel",
+                     "objectCount":  32,
+                     "surfaceTarget":  "spring steel; dark metal with axis-aware highlights; springs visible as separate functional pieces",
+                     "materialFamily":  "spring steel",
+                     "mustNotInheritFrom":  [
+                                                "threaded_dark",
+                                                "body_cast_shell",
+                                                "soft_seal"
+                                            ],
+                     "status":  "pending"
+                 }
+             ],
+    "sourceAuthority":  {
+                            "step":  "assets/source/固定式球阀.STEP",
+                            "nodeMap":  "assets-manifest/node-map.json",
+                            "materialJobsRoot":  "material-jobs"
+                        }
+}

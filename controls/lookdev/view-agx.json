@@ -1,0 +1,9 @@
+{
+  "schema": "ztovalve-lookdev-view/v1",
+  "view": {
+    "transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": -0.35,
+    "gamma": 1.0
+  }
+}

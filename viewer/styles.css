@@ -1,0 +1,256 @@
+:root {
+  color-scheme: dark;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  font-family:
+    Inter,
+    "Microsoft YaHei",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: #080a0b;
+  color: #ecf0f1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  height: 100vh;
+  min-height: 640px;
+}
+
+.viewport {
+  position: relative;
+  min-width: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035) 0%, transparent 38%),
+    linear-gradient(155deg, #060706 0%, #121514 52%, #050605 100%);
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hud {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  max-width: calc(100% - 32px);
+  padding: 9px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(7, 9, 10, 0.78);
+  backdrop-filter: blur(12px);
+  font-size: 13px;
+}
+
+.hud span {
+  color: #b8c0c2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panel {
+  height: 100vh;
+  overflow: auto;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  background: #111516;
+  padding: 18px;
+}
+
+header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  color: #d8dcdd;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 7px;
+  color: #97a2a5;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.control-row,
+.slider {
+  display: grid;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+label {
+  color: #bcc6c9;
+  font-size: 12px;
+}
+
+select,
+button {
+  min-height: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #1a2022;
+  color: #eef2f3;
+  font: inherit;
+  transition:
+    border-color 180ms var(--ease-out),
+    background-color 180ms var(--ease-out),
+    color 180ms var(--ease-out);
+}
+
+select {
+  width: 100%;
+  padding: 0 9px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  button:hover,
+  select:hover {
+    border-color: rgba(224, 216, 168, 0.42);
+    background: #222720;
+  }
+}
+
+button.is-active {
+  border-color: rgba(230, 217, 153, 0.78);
+  background: #2b2b21;
+  color: #fff7cf;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.view-actions {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #d6c77f;
+}
+
+.roles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 7px;
+}
+
+.role-button {
+  display: grid;
+  grid-template-columns: 14px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 36px;
+  padding: 8px;
+  text-align: left;
+}
+
+.role-button.active {
+  border-color: #e6d999;
+  background: #2a2b22;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.role-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.role-count {
+  color: #92a0a3;
+  font-size: 11px;
+}
+
+pre {
+  min-height: 140px;
+  margin: 0;
+  padding: 11px;
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #0b0e0f;
+  color: #c8d2d5;
+  font-size: 11px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 920px) {
+  body {
+    overflow: auto;
+  }
+
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(460px, 68vh) auto;
+    height: auto;
+  }
+
+  .panel {
+    height: auto;
+    border-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (max-width: 420px) {
+  .view-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

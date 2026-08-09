@@ -1,0 +1,13 @@
+{
+    "schema":  "ztovalve-render-control/v1",
+    "name":  "material-gate-640",
+    "sequence":  {
+                     "frameCount":  240,
+                     "width":  640,
+                     "height":  360,
+                     "samples":  8
+                 },
+    "output":  {
+                   "defaultOutDir":  "renders/material-gate"
+               }
+}

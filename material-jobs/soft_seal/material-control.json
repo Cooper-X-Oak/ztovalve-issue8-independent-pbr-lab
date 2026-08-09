@@ -1,0 +1,64 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-soft_seal",
+    "generatedAt":  "2026-08-08T07:59:46.849536+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "soft_seal":  {
+                                        "baseColor":  [
+                                                          0.8509803921568627,
+                                                          0.8352941176470589,
+                                                          0.7843137254901961
+                                                      ],
+                                        "metallic":  0.0,
+                                        "roughness":  0.76,
+                                        "specular":  0.5,
+                                        "normalStrength":  0.035,
+                                        "aniso":  0.0,
+                                        "textureSet":  {
+                                                           "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                           "assetId":  "issue8-substance-style-soft_seal-v1",
+                                                           "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                           "license":  "CC0-1.0 project-generated procedural test texture",
+                                                           "role":  "soft_seal",
+                                                           "materialFamily":  "PTFE-like soft seal",
+                                                           "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                           "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                           "baseColor":  "material-jobs/soft_seal/textures/soft_seal_baseColor.png",
+                                                           "normal":  "material-jobs/soft_seal/textures/soft_seal_normal.png",
+                                                           "metallic":  "material-jobs/soft_seal/textures/soft_seal_metallic.png",
+                                                           "roughness":  "material-jobs/soft_seal/textures/soft_seal_roughness.png",
+                                                           "height":  "material-jobs/soft_seal/textures/soft_seal_height.png",
+                                                           "ao":  "material-jobs/soft_seal/textures/soft_seal_ao.png",
+                                                           "metallicRoughness":  "material-jobs/soft_seal/textures/soft_seal_metallicRoughness.png",
+                                                           "ORM":  "material-jobs/soft_seal/textures/soft_seal_ORM.png",
+                                                           "scale":  1.0,
+                                                           "baseColorStrength":  0.42,
+                                                           "roughnessStrength":  0.48,
+                                                           "metallicStrength":  1.0,
+                                                           "normalStrength":  0.035,
+                                                           "heightStrength":  0.025,
+                                                           "heightDistance":  0.004,
+                                                           "aoStrength":  0.1
+                                                       }
+                                    }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "soft_seal",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/soft_seal"
+                    },
+    "defaultsTouched":  false
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "ztovalve-animation-features/v1",
+  "features": {
+    "sectionReveal": {
+      "enabled": false
+    },
+    "proofCamera": {
+      "enabled": false
+    }
+  }
+}

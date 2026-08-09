@@ -1,0 +1,66 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-packing_box_machined_faces",
+    "generatedAt":  "2026-08-08T07:58:53.055615+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "packing_box_machined_faces":  {
+                                                         "baseColor":  [
+                                                                           0.7019607843137254,
+                                                                           0.7215686274509804,
+                                                                           0.7137254901960784
+                                                                       ],
+                                                         "metallic":  1.0,
+                                                         "roughness":  0.34,
+                                                         "specular":  0.5,
+                                                         "normalStrength":  0.09,
+                                                         "aniso":  0.5,
+                                                         "textureSet":  {
+                                                                            "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                            "assetId":  "issue8-substance-style-packing_box_machined_faces-v1",
+                                                                            "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                            "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                            "role":  "packing_box_machined_faces",
+                                                                            "materialFamily":  "small machined face",
+                                                                            "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                            "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                            "baseColor":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_baseColor.png",
+                                                                            "normal":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_normal.png",
+                                                                            "metallic":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_metallic.png",
+                                                                            "roughness":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_roughness.png",
+                                                                            "height":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_height.png",
+                                                                            "ao":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_ao.png",
+                                                                            "metallicRoughness":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_metallicRoughness.png",
+                                                                            "ORM":  "material-jobs/packing_box_machined_faces/textures/packing_box_machined_faces_ORM.png",
+                                                                            "scale":  1.0,
+                                                                            "baseColorStrength":  0.3,
+                                                                            "roughnessStrength":  0.54,
+                                                                            "metallicStrength":  1.0,
+                                                                            "normalStrength":  0.09,
+                                                                            "heightStrength":  0.045,
+                                                                            "heightDistance":  0.004,
+                                                                            "aoStrength":  0.09
+                                                                        },
+                                                         "waveRings":  0.06,
+                                                         "radialRotation":  true
+                                                     }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "packing_box_machined_faces",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/packing_box_machined_faces"
+                    },
+    "defaultsTouched":  false
+}

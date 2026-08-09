@@ -1,0 +1,66 @@
+{
+    "schema":  "ztovalve-material-control/v1",
+    "kind":  "single_role_substance_style_material_control",
+    "name":  "issue8-substance-pbr-cover_flange_machined_faces",
+    "generatedAt":  "2026-08-08T07:58:35.304996+00:00",
+    "rendererSupport":  {
+                            "activeFields":  [
+                                                 "textureSet",
+                                                 "normalStrength",
+                                                 "aniso",
+                                                 "waveRings",
+                                                 "radialRotation",
+                                                 "thread"
+                                             ]
+                        },
+    "materials":  {
+                      "cover_flange_machined_faces":  {
+                                                          "baseColor":  [
+                                                                            0.7137254901960784,
+                                                                            0.7294117647058823,
+                                                                            0.7215686274509804
+                                                                        ],
+                                                          "metallic":  1.0,
+                                                          "roughness":  0.3,
+                                                          "specular":  0.5,
+                                                          "normalStrength":  0.09,
+                                                          "aniso":  0.58,
+                                                          "textureSet":  {
+                                                                             "source":  "substance-3d-texturing skill; local Substance-style procedural PBR authoring",
+                                                                             "assetId":  "issue8-substance-style-cover_flange_machined_faces-v1",
+                                                                             "sourceUrl":  "local://C:/Users/luoxu/.codex/skills/substance-3d-texturing/SKILL.md",
+                                                                             "license":  "CC0-1.0 project-generated procedural test texture",
+                                                                             "role":  "cover_flange_machined_faces",
+                                                                             "materialFamily":  "machined cover face",
+                                                                             "exportPreset":  "WebGL_Separated plus glTF metallicRoughness and ORM packed maps",
+                                                                             "paddingAlgorithm":  "infinite-equivalent procedural tile",
+                                                                             "baseColor":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_baseColor.png",
+                                                                             "normal":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_normal.png",
+                                                                             "metallic":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_metallic.png",
+                                                                             "roughness":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_roughness.png",
+                                                                             "height":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_height.png",
+                                                                             "ao":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_ao.png",
+                                                                             "metallicRoughness":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_metallicRoughness.png",
+                                                                             "ORM":  "material-jobs/cover_flange_machined_faces/textures/cover_flange_machined_faces_ORM.png",
+                                                                             "scale":  1.0,
+                                                                             "baseColorStrength":  0.32,
+                                                                             "roughnessStrength":  0.56,
+                                                                             "metallicStrength":  1.0,
+                                                                             "normalStrength":  0.09,
+                                                                             "heightStrength":  0.05,
+                                                                             "heightDistance":  0.004,
+                                                                             "aoStrength":  0.09
+                                                                         },
+                                                          "waveRings":  0.08,
+                                                          "radialRotation":  true
+                                                      }
+                  },
+    "issue8Rules":  {
+                        "roleJobOnly":  true,
+                        "role":  "cover_flange_machined_faces",
+                        "wholeAssemblyTexturePassAllowed":  false,
+                        "oneBatchGeneratesAllRolesAllowed":  false,
+                        "sourceJobDirectory":  "material-jobs/cover_flange_machined_faces"
+                    },
+    "defaultsTouched":  false
+}
